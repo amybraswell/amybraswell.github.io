@@ -1,0 +1,29 @@
+
+body {
+	background-color: #143a71;
+}
+
+
+h1 {
+	background-color: #FFF;
+	color: #143a71;
+	text-align: center;
+}
+
+.indent {
+	max-width: 90%;
+	margin: 0 auto 0 auto;
+}
+
+p, a, li {
+	color:#FFF;
+}
+
+a {
+	text-decoration: none;
+}
+
+.contact li {
+	text-decoration: none;
+	display: inline;
+}
