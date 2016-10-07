@@ -10,30 +10,27 @@
 
 body {
 	background-color: #143a71;
+	color:#fff;
+	font-family:helvetica, arial, sans-serif;
+	font-size:16px;
+	line-height:1.25;
 }
-
-
 h1 {
 	background-color: #FFF;
 	color: #143a71;
 	text-align: center;
 }
 
+a {
+	color:inherit;
+}
 .about {
-	max-width: 90%;
+	width: 90%;
 	margin: 0 auto 0 auto;
 }
 
-p, a, li {
-	color:#FFF;
-}
 
-a {
-	text-decoration: none;
-}
-
-.contact li {
-	text-decoration: none;
+#contact li {
 	display: inline;
 }
 
@@ -41,7 +38,6 @@ a {
 	border-left: 1px solid #FFF;
 	border-right: 1px solid #FFF;
 }
-
 .line a {
 	display: inline-block;
 	padding-left: 10px;
