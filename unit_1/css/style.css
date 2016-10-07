@@ -1,3 +1,12 @@
+/************* "*" selects all to remove any default margins & padding **********  
+  border-box keeps padding is included in max-width***************/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 
 body {
 	background-color: #143a71;
@@ -10,7 +19,7 @@ h1 {
 	text-align: center;
 }
 
-.indent {
+.about {
 	max-width: 90%;
 	margin: 0 auto 0 auto;
 }
@@ -26,4 +35,15 @@ a {
 .contact li {
 	text-decoration: none;
 	display: inline;
+}
+
+.line {
+	border-left: 1px solid #FFF;
+	border-right: 1px solid #FFF;
+}
+
+.line a {
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
 }
