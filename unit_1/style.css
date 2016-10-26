@@ -1,0 +1,36 @@
+/************* "*" selects all to remove any default margins & padding **********  
+  border-box keeps padding is included in max-width***************/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	background-color: #555555;
+}
+
+
+h1 {
+	background-color: #FFF;
+	color: #143a71;
+	text-align: center;
+}
+
+p, a, li {
+	color:#FFF;
+}
+
+#navigation {
+	display: inline;
+	}
+
+.about {
+	max-width: 90%;
+	margin: 0 auto 0 auto;
+}
+
+
+

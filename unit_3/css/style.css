@@ -1,0 +1,206 @@
+/************* "*" selects all to remove any default margins & padding **********  
+  border-box keeps padding is included in max-width***************/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+}
+
+
+body {
+	background-color: #FFF;
+}
+
+p, a, li{
+	font-family: 'Lato', sans-serif;
+	font-size: 1em;
+	letter-spacing: 1.1em;
+	color: #888;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	background-color: #143a71;
+	color: rgba(224,232,241,1);
+	font-family: 'Trirong', serif;
+	font-weight: 400;
+	letter-spacing: 1.6em;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.75em;
+}
+
+/************************ Couldn't get this to work **************************
+#wrapper span {
+	background-color: #143a71;
+	color: rgba(224,232,241,1);
+	font-family: 'Trirong', serif;
+	font-weight: 400;
+	letter-spacing: 1.6em;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2.25em;
+	padding: 5px 0 5px 0;
+}  
+*******************************************************************************/
+
+header {
+	background-color: rgba(224,232,241,.7);
+
+}
+
+/********************************* FOOTER ***********************************************/
+
+footer {
+	background-color: #143a71;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1em;
+	padding: 1.6em 0 1.6em 0;
+}
+
+footer p {
+	color: rgba(224,232,241,1);
+}
+
+footer figure {
+	width: 90%;
+	float: left;
+}
+
+footer #email {
+	display: block;
+	width; 100%;
+}
+
+footer #phone {
+	display: block;
+	width; 100%;
+	border-left: 1px solid rgba(224,232,241,1);
+	border-right: 1px solid rgba(224,232,241,1);
+}
+
+footer #address {
+	display: block;
+	width; 100%;
+}
+
+
+/******************************** CLASSES ***********************************************/
+.blue {
+	width: 100%;
+	border: none;
+	height: 2px;
+	background-color: #093562;
+}
+
+.grey {
+	width: 100%;
+	border: none;
+	height: 3px;
+	background-color: rgba(224,232,241,.8);
+}
+
+
+/************************************ HEADER ID'S *****************************************/
+#logo img{
+	display: block;
+	margin: auto;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	width: 85px;	
+}
+
+/***********************************  SLIDESHOW  *****************************************/
+#slideshow img{
+	width: 100%;
+	margin-bottom: -4px;
+}
+
+
+/*********************************** SOCIAL MEDIA LINKS *********************************/
+#navigation {
+	width: 20%;
+	background-color: red;
+}
+
+#navigation figure {
+	display: inline;
+	float: right;
+}
+
+#navigation img{
+	border-radius: 10%;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+/***************************************  ABOUT  ****************************************/
+#about {
+	max-width: 75%;
+	margin: 250px auto 150px;
+}
+
+#about p {
+	display: block;
+	margin-top: 25px;
+	font-size: 28pt;
+	line-height: 1.5em;
+	text-align: justify;
+	margin: 2em;
+}
+
+#about img {
+	display: block;
+	border-radius: 100%;
+	width: 100%;		
+}
+
+#portraitLeft {
+	width: 25%;
+	float: left;
+}
+
+#portraitRight {
+	width: 25%;
+	float: right;
+}
+
+
+/**************************************** PORTFOLIO **************************************/
+
+/***************************** CAN'T GET RESPONSIVE % SIZE OF TD'S ***********************/
+
+/***** WASN'T CENTERING EXACTLY WITH BOX-SIZING / NEEDED SLIGHT MARGIN-LEFT ON TABLE *****/
+
+#portfolio figure {
+	width: 25%;
+	float: left;
+}
+
+#portfolio img{
+	display: block; 
+	width: 100%;
+	padding: 0 2% 3% 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
