@@ -3,116 +3,310 @@
 <head>
 	<title>Randall Architects</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,700|Trirong:400,500" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,700|Trirong:200,300" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
 </head>
 <body>
-		<header> 
-			<section id="logo"><img src="images/logo.png" alt= "company logo"/></section>
-			<hr class="blue"></hr>
-			<hr class="blue"></hr>
-			<hr class="grey"></hr>		
-			<h1><span>R</span>andall <span></span><span>A</span>rchitects</h1>
-			<hr class="grey"></hr>
-			<hr class="blue"></hr>
-			<hr class="blue"></hr>
-			</section>
-		</header>
-		
-<!-- This section will be a full-width slide carousel of portfolio highlights -->
-		<section id="slideshow">
-			<ul>
-<!--			<li><img src="images/slideshow/BedroomDeskAndDoors.jpg" alt= "slideshow of images"/></li>
--->
+	<header> 
+		<section id="logo"><img src="images/logo.png" alt= "company logo"/></section>
+		<hr class="blue"></hr>
+		<hr class="blue"></hr>
+		<hr class="grey"></hr>		
+		<h1><span>R</span>andall <span></span><span>A</span>rchitects</h1>
+		<hr class="grey"></hr>
+		<hr class="blue"></hr>
+		<hr class="blue"></hr>
+		</section>
+	</header>
+
+<!-- This is a flexslider slideshow for hero images of site -->		
+	<section id="slideshow" class="slider">
+		<div class="flexslider">
+			<ul class="slides">
+				<li><img src="images/slideshow/BedroomDeskAndDoors.jpg" alt= "slideshow of images"/></li>
+
 				<li><img src="images/slideshow/LivingRoom.jpg" alt= "slideshow of images"/></li>
-<!--			<li><img src="images/slideshow/Bedroom.jpg" alt= "slideshow of images"/></li>
+			
+				<li><img src="images/slideshow/Bedroom.jpg" alt= "slideshow of images"/></li>
+				
 				<li><img src="images/slideshow/Den.jpg"  alt= "slideshow of images"/></li>
+				
 				<li><img src="images/slideshow/MasterBathLight.jpg" alt= "slideshow of images"/></li>
+				
 				<li><img src="images/slideshow/MasterBathDark.jpg" alt= "slideshow of images"/></li>
 			</ul>
--->
-			</section>
-<!-- These are links for client's social media pages -->
-		<nav id="two">
-					<figure><a href="https://www.facebook.com/RandallArchitects"><img src="images/facebook.png"  alt= "link to Facebook"/></a></figure>
-				
-					<figure><a href="http://www.houzz.com/pro/randallarchs/randall-architects"><img src="images/houzz.png" alt= "link to Houzz"/></a></figure>
+		</div>
+	</section>
 
-					<figure><a href="https://www.pinterest.com/randallarchitec/"><img src="images/pinterest.png"  alt= "link to Pinterest"/></a></figure>
-				
-					<figure><a href="https://www.linkedin.com/company/randall-architects-inc."><img src="images/linkedin.png" alt= "link to LinkedIn"/></a></figure>
-				
-					<figure><a href="https://twitter.com/RandallArchs"><img src="images/twitter.png" alt= "link to Twitter"/></a></figure>
-				
-					<figure><a href="https://plus.google.com/u/0/117912634110310418835"><img src="images/google.png" alt= "link to Google Plus"/></a></figure>
-		</nav>
-	<div id="wrapper">
-		<section id="about">
-			<figure id="portraitLeft"><img src="images/greg.jpg" alt= "portrait of Greg"/></figure>
-			<figure id="portraitCenter"><img src="images/abby.jpg" alt= "portrait of Abby"/></figure>
-			<figure id="portraitRight"><img src="images/ryan.jpg" alt= "portrait of Ryan"/></figure>
+<!-- These are links for client's social media pages -->
+	<nav id="two">
+		<figure><a href="https://www.facebook.com/RandallArchitects"><img src="images/facebook.png"  alt= "link to Facebook"/></a></figure>
+	
+		<figure><a href="http://www.houzz.com/pro/randallarchs/randall-architects"><img src="images/houzz.png" alt= "link to Houzz"/></a></figure>
+
+		<figure><a href="https://www.pinterest.com/randallarchitec/"><img src="images/pinterest.png"  alt= "link to Pinterest"/></a></figure>
+	
+		<figure><a href="https://www.linkedin.com/company/randall-architects-inc."><img src="images/linkedin.png" alt= "link to LinkedIn"/></a></figure>
+	
+		<figure><a href="https://twitter.com/RandallArchs"><img src="images/twitter.png" alt= "link to Twitter"/></a></figure>
+	
+		<figure><a href="https://plus.google.com/u/0/117912634110310418835"><img src="images/google.png" alt= "link to Google Plus"/></a></figure>
+	</nav>
+
+<!-- This creates the two column layout in the second part of the site-->
+	<div id="two_column" class="clearfix">
+
+<!-- These are portraits of the client -->
+		<section id="portraits">
+			<figure id="portraitLeft">
+				<img src="images/greg.jpg" alt= "portrait of Greg"/>
+			</figure>
+			<figure id="portraitCenter">
+				<img src="images/abby.jpg" alt= "portrait of Abby"/>
+			</figure>
+			<figure id="portraitRight">
+				<img src="images/ryan.jpg" alt= "portrait of Ryan"/>
+			</figure>
+		</section>
+
+<!-- This is information about the client and a contact form -->
+		<article id="left">
 			<p>Founded in 2003, Randall Architects is led by a licensed husband and wife team, who celebrate both modern and traditional work. The excellence we strive for is not only in each design detail, but also in every professional relationship. Whether a new house, a condominium build-out, or a master suite addition, Randall Architects provides a considered and comfortable home, unique to your lifestyle. </p>
-		</section>
-		<section id="portfolio">
-			<figure><img src="images/portfolio/thumbnails/Hartman.jpg" alt= "link to project"/>
-				<figcaption><div>
-				<a>Lorem Ipsum</a>
-				</div>
-				</figcaption>
-			</figure>
-			<figure><img src="images/portfolio/thumbnails/Klyber.jpg" alt= "link to project"/>
-				<figcaption><div>
-				<a>Lorem Ipsum</a>
-				</div>
-				</figcaption>
-			</figure>
-			<figure><img src="images/portfolio/thumbnails/Kort.jpg" alt= "link to project"/>
-				<figcaption><div>
-				<a>Lorem Ipsum</a>
-				</div>
-				</figcaption>
-			</figure>
-			<figure><img src="images/portfolio/thumbnails/Unknown1.jpg" alt= "link to project"/>
-				<figcaption><div>
-				<a>Lorem Ipsum</a>
-				</div>
-				</figcaption>
-			</figure>
-			<figure><img src="images/portfolio/thumbnails/Owens.jpg" alt= "link to project"/>
-				<figcaption><div>
-				<a>Lorem Ipsum</a>
-				</div>
-				</figcaption>
-			</figure>
-			<figure><img src="images/portfolio/thumbnails/Unknown2.jpg" alt= "link to project"/>
-				<figcaption><div>
-				<a>Lorem Ipsum</a>
-				</div>
-				</figcaption>
-			</figure>
-			<figure><img src="images/portfolio/thumbnails/Donenberg.jpg" alt= "link to project"/>
-				<figcaption><div>
-				<a>Lorem Ipsum</a>
-				</div>
-				</figcaption>
-			</figure>
-			<figure><img src="images/portfolio/thumbnails/Riverside.jpg" alt= "link to project"/>
-				<figcaption><div>
-				<a>Lorem Ipsum</a>
-				</div>
-				</figcaption>
-			</figure>
-			<figure><img src="images/portfolio/thumbnails/Tomany.jpg" alt= "link to project"/>
-				<figcaption><div>
-				<a>Lorem Ipsum</a>
-				</div>
-				</figcaption>
-			</figure>			
-		</section>
+		</article>
+
+		<aside id="right" class="form">
+			<form action="action_page.php">
+					<p> Name:<br>
+	  				<input type="text" name="name"><br>
+  					Phone:<br>
+  					<input type="text" name="phone"><br>
+  					Email:<br>
+  					<input type="text" name="email"><br>
+  				<span id="comments">
+  					Comments:<br>
+  					<input type="text" name="comments"><br>
+  				</span>
+	  				<br>
+	  				<input type="submit" value="Submit">
+  				</p>
+			</form>
+		</aside>
 	</div>
+		
+<!-- This creates a wrapper for the portfolio section -->
+	<div id="wrapper">
+
+<!-- This is the client's portfolio -->	
+		<section id="portfolio">
+			<figure>
+				<div class="inside-figure">
+					<section class="home-details" id="home-1">
+ 					<img alt="link to project" src="images/portfolio/thumbnails/Hartman.jpg">
+ 					<p>
+						If it smells like fish eat as much as you wish knock dish off table head butt cant eat out of my own dish
+						Sniff other cat's butt and hang jaw half open thereafter sweet beast. Dream about hunting birds. Destroy couch as revenge poop on grasses so lick butt, for meow meow, i tell my human. Purr hate dog, for human is washing you why halp oh the horror flee scratch hiss bite or pelt around the house and up and down stairs chasing phantoms. Jumps off balcony gives owner dead mouse at present then poops in litter box snatches yarn and fights with dog cat chases laser then plays in grass finds tiny spot in cupboard and sleeps all day jumps in bathtub and meows when owner fills food dish the cat knocks over the food dish cat slides down the water slide and into pool and swims even though it does not like water gnaw the corn cob sun bathe purr yet get video posted to internet for chasing red dot and sit in box. 
+					</p>
+
+					<figcaption>
+						<div>
+							<a>Lorem Ipsum</a>
+						</div>
+					</figcaption>
+					</section>
+				</div>
+			</figure>
+
+
+			<figure>
+				<div class="inside-figure">
+					<section class="home-details" id="home-2">
+					<img alt="link to project" src="images/portfolio/thumbnails/Klyber.jpg">
+					<p>
+						If it smells like fish eat as much as you wish knock dish off table head butt cant eat out of my own dish
+						Sniff other cat's butt and hang jaw half open thereafter sweet beast. Dream about hunting birds. Destroy couch as revenge poop on grasses so lick butt, for meow meow, i tell my human. Purr hate dog, for human is washing you why halp oh the horror flee scratch hiss bite or pelt around the house and up and down stairs chasing phantoms. Jumps off balcony gives owner dead mouse at present then poops in litter box snatches yarn and fights with dog cat chases laser then plays in grass finds tiny spot in cupboard and sleeps all day jumps in bathtub and meows when owner fills food dish the cat knocks over the food dish cat slides down the water slide and into pool and swims even though it does not like water gnaw the corn cob sun bathe purr yet get video posted to internet for chasing red dot and sit in box. 
+					</p>
+
+					<figcaption>
+						<div>
+							<a>Lorem Ipsum</a>
+						</div>
+					</figcaption>
+					</section>
+				</div>
+			</figure>
+
+
+			<figure>
+				<div class="inside-figure">
+					<section class="home-details" id="home-3">
+					<img alt="link to project" src="images/portfolio/thumbnails/Kort.jpg">
+					<p>
+						If it smells like fish eat as much as you wish knock dish off table head butt cant eat out of my own dish
+						Sniff other cat's butt and hang jaw half open thereafter sweet beast. Dream about hunting birds. Destroy couch as revenge poop on grasses so lick butt, for meow meow, i tell my human. Purr hate dog, for human is washing you why halp oh the horror flee scratch hiss bite or pelt around the house and up and down stairs chasing phantoms. Jumps off balcony gives owner dead mouse at present then poops in litter box snatches yarn and fights with dog cat chases laser then plays in grass finds tiny spot in cupboard and sleeps all day jumps in bathtub and meows when owner fills food dish the cat knocks over the food dish cat slides down the water slide and into pool and swims even though it does not like water gnaw the corn cob sun bathe purr yet get video posted to internet for chasing red dot and sit in box. 
+					</p>
+
+					<figcaption>
+						<div>
+							<a>Lorem Ipsum</a>
+						</div>
+					</figcaption>
+					</section>
+				</div>
+			</figure>
+
+
+			<figure>
+				<div class="inside-figure">
+					<section class="home-details" id="home-4">
+					<img alt="link to project" src="images/portfolio/thumbnails/Unknown1.jpg">
+					<p>
+						If it smells like fish eat as much as you wish knock dish off table head butt cant eat out of my own dish
+						Sniff other cat's butt and hang jaw half open thereafter sweet beast. Dream about hunting birds. Destroy couch as revenge poop on grasses so lick butt, for meow meow, i tell my human. Purr hate dog, for human is washing you why halp oh the horror flee scratch hiss bite or pelt around the house and up and down stairs chasing phantoms. Jumps off balcony gives owner dead mouse at present then poops in litter box snatches yarn and fights with dog cat chases laser then plays in grass finds tiny spot in cupboard and sleeps all day jumps in bathtub and meows when owner fills food dish the cat knocks over the food dish cat slides down the water slide and into pool and swims even though it does not like water gnaw the corn cob sun bathe purr yet get video posted to internet for chasing red dot and sit in box. 
+					</p>
+
+					<figcaption>
+						<div>
+							<a>Lorem Ipsum</a>
+						</div>
+					</figcaption>
+					</section>
+				</div>
+			</figure>
+
+
+			<figure>
+				<div class="inside-figure">
+					<section class="home-details" id="home-5">
+					<img alt="link to project" src="images/portfolio/thumbnails/Owens.jpg">
+					<p>
+						If it smells like fish eat as much as you wish knock dish off table head butt cant eat out of my own dish
+						Sniff other cat's butt and hang jaw half open thereafter sweet beast. Dream about hunting birds. Destroy couch as revenge poop on grasses so lick butt, for meow meow, i tell my human. Purr hate dog, for human is washing you why halp oh the horror flee scratch hiss bite or pelt around the house and up and down stairs chasing phantoms. Jumps off balcony gives owner dead mouse at present then poops in litter box snatches yarn and fights with dog cat chases laser then plays in grass finds tiny spot in cupboard and sleeps all day jumps in bathtub and meows when owner fills food dish the cat knocks over the food dish cat slides down the water slide and into pool and swims even though it does not like water gnaw the corn cob sun bathe purr yet get video posted to internet for chasing red dot and sit in box. 
+					</p>
+
+					<figcaption>
+						<div>
+							<a>Lorem Ipsum</a>
+						</div>
+					</figcaption>
+				</section>
+				</div>
+			</figure>
+
+
+			<figure>
+				<div class="inside-figure">
+					<section class="home-details" id="home-6">
+					<img alt="link to project" src="images/portfolio/thumbnails/Unknown2.jpg">
+					<p>
+						If it smells like fish eat as much as you wish knock dish off table head butt cant eat out of my own dish
+						Sniff other cat's butt and hang jaw half open thereafter sweet beast. Dream about hunting birds. Destroy couch as revenge poop on grasses so lick butt, for meow meow, i tell my human. Purr hate dog, for human is washing you why halp oh the horror flee scratch hiss bite or pelt around the house and up and down stairs chasing phantoms. Jumps off balcony gives owner dead mouse at present then poops in litter box snatches yarn and fights with dog cat chases laser then plays in grass finds tiny spot in cupboard and sleeps all day jumps in bathtub and meows when owner fills food dish the cat knocks over the food dish cat slides down the water slide and into pool and swims even though it does not like water gnaw the corn cob sun bathe purr yet get video posted to internet for chasing red dot and sit in box. 
+					</p>
+
+					<figcaption>
+						<div>
+							<a>Lorem Ipsum</a>
+						</div>
+					</figcaption>
+					</section>
+				</div>
+			</figure>
+
+
+			<figure>
+				<div class="inside-figure">
+					<section class="home-details" id="home-7">
+					<img alt="link to project" src="images/portfolio/thumbnails/Donenberg.jpg">
+					<p>
+						If it smells like fish eat as much as you wish knock dish off table head butt cant eat out of my own dish
+						Sniff other cat's butt and hang jaw half open thereafter sweet beast. Dream about hunting birds. Destroy couch as revenge poop on grasses so lick butt, for meow meow, i tell my human. Purr hate dog, for human is washing you why halp oh the horror flee scratch hiss bite or pelt around the house and up and down stairs chasing phantoms. Jumps off balcony gives owner dead mouse at present then poops in litter box snatches yarn and fights with dog cat chases laser then plays in grass finds tiny spot in cupboard and sleeps all day jumps in bathtub and meows when owner fills food dish the cat knocks over the food dish cat slides down the water slide and into pool and swims even though it does not like water gnaw the corn cob sun bathe purr yet get video posted to internet for chasing red dot and sit in box. 
+					</p>
+
+					<figcaption>
+						<div>
+							<a>Lorem Ipsum</a>
+						</div>
+					</figcaption>
+					</section>
+				</div>
+			</figure>
+
+
+			<figure>
+				<div class="inside-figure">
+					<section class="home-details" id="home-8">
+					<img alt="link to project" src="images/portfolio/thumbnails/Riverside.jpg">
+					<p>
+						If it smells like fish eat as much as you wish knock dish off table head butt cant eat out of my own dish
+						Sniff other cat's butt and hang jaw half open thereafter sweet beast. Dream about hunting birds. Destroy couch as revenge poop on grasses so lick butt, for meow meow, i tell my human. Purr hate dog, for human is washing you why halp oh the horror flee scratch hiss bite or pelt around the house and up and down stairs chasing phantoms. Jumps off balcony gives owner dead mouse at present then poops in litter box snatches yarn and fights with dog cat chases laser then plays in grass finds tiny spot in cupboard and sleeps all day jumps in bathtub and meows when owner fills food dish the cat knocks over the food dish cat slides down the water slide and into pool and swims even though it does not like water gnaw the corn cob sun bathe purr yet get video posted to internet for chasing red dot and sit in box. 
+					</p>
+
+					<figcaption>
+						<div>
+							<a>Lorem Ipsum</a>
+						</div>
+					</figcaption>
+					</section>
+				</div>
+			</figure>
+
+
+			<figure>
+				<div class="inside-figure">
+					<section class="home-details" id="home-9">
+					<img alt="link to project" src="images/portfolio/thumbnails/Tomany.jpg">
+					<p>
+						If it smells like fish eat as much as you wish knock dish off table head butt cant eat out of my own dish
+						Sniff other cat's butt and hang jaw half open thereafter sweet beast. Dream about hunting birds. Destroy couch as revenge poop on grasses so lick butt, for meow meow, i tell my human. Purr hate dog, for human is washing you why halp oh the horror flee scratch hiss bite or pelt around the house and up and down stairs chasing phantoms. Jumps off balcony gives owner dead mouse at present then poops in litter box snatches yarn and fights with dog cat chases laser then plays in grass finds tiny spot in cupboard and sleeps all day jumps in bathtub and meows when owner fills food dish the cat knocks over the food dish cat slides down the water slide and into pool and swims even though it does not like water gnaw the corn cob sun bathe purr yet get video posted to internet for chasing red dot and sit in box. 
+					</p>
+
+					<figcaption>
+						<div>
+							<a>Lorem Ipsum</a>
+						</div>
+					</figcaption>
+					</section>
+				</div>
+			</figure>
+		</section>
+
+	</div>
+
+
+	<!-- jQuery -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+
+	<!-- FlexSlider -->
+	<script defer src="js/jquery.flexslider.js"></script>
+
+	<script type="text/javascript">
+	$(function(){
+	  SyntaxHighlighter.all();
+	});
+	$(window).load(function(){
+	  $('.flexslider').flexslider({
+	  	controlNav: false,
+	    animation: "slide",
+	    start: function(slider){
+	      $('body').removeClass('loading');
+	    }
+	  });
+	});
+
+	</script>
+	<!--End of Flexslider -->
+
+	<!--End of jQuery -->
+
+
+
+
 		<footer>
 			<figure id="email"><a href="mailto:randall@randallarchitects.com"><p>randall @ randallarchitects.com</p></a></figure>
 			<figure id="phone"><a href="tel:7088539439"><p>708.853.9439</p></a></figure>
 			<figure id="address"><p>39 E. Quincy # 2B Riverside, IL 60546</p></figure>
 		</footer>
+
 	</body>
 </html>
