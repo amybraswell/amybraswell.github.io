@@ -4,7 +4,9 @@
 * {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box; 
+	box-sizing: border-box;
+	overflow-x: hidden; 
+	overflow-y: auto;
 }
 
 /*****************************CSS OF SITE***************************/
@@ -51,52 +53,6 @@ h1 span {
 }  
 
 
-/********************************* FOOTER ***********************************************/
-
-footer {
-	background-color: #143a71;
-	display: inline-block;
-	width: 100%;
-	margin: 5% auto 0;
-	clear: both;
-}
-
-footer p {
-	color: rgba(224,232,241,1);
-	text-align: center;
-	text-transform: uppercase;
-	font-size: .80rem;
-}
-
-footer figure {
-	width: 33%;
-	padding-top: 2%;
-	padding-bottom: 2%;
-}
-
-footer #email {
-	display: inline-block;
-	width: 25%;
-	margin-left: 6%;
-}
-
-footer #phone {
-	display: inline-block;
-	width: 25%;
-	border-left: 1px solid rgba(224,232,241,1);
-	border-right: 1px solid rgba(224,232,241,1);
-	margin-left: 5%;
-	margin-right: 5%;
-	margin-top: 1%;
-	margin-bottom: 1%;
-}
-
-footer #address {
-	display: inline-block;
-	width: 25%;
-}
-
-
 /******************************** CLASSES ***********************************************/
 
 .blue {
@@ -112,6 +68,7 @@ footer #address {
 	height: 3px;
 	background-color: rgba(224,232,241,.8);
 }
+
 
 /************************************ HEADER *****************************************/
 
@@ -129,7 +86,7 @@ footer #address {
 	width: 35%;
 	float: right;
 	display: block;
-	margin-right: -40px;  /*****source of horizontal scroll ?******/
+	margin-right: -40px;  
 	margin-bottom: 35px;
 }
 
@@ -174,7 +131,7 @@ footer #address {
 #two_column {
 	width: 100%;
 	padding: 10 px;
-	padding-bottom: 5%;
+	padding-bottom: 2%;
 	margin: 0 auto 0;
 	background-color: rgba(224,232,241,.7);
 	clear: both;
@@ -182,7 +139,6 @@ footer #address {
 
 #left {
 	width: 63%;
-	height: 350px;
 	padding-left: 7%;
 	padding-right: 3%;
 	float: left;
@@ -190,7 +146,6 @@ footer #address {
 
 #right {
 	width: 33%;
-	height: 350px;
 	padding-right: 7%;
 	padding-top: 5px;
 	float: right;
@@ -330,6 +285,60 @@ font-size: 40px;
 letter-spacing: .11rem;
 color: #555;
 }
+
+/********************************* FOOTER ***********************************************/
+
+footer {
+	background-color: #143a71;
+	display: inline-block;
+	width: 100%;
+	margin: 5% auto 0;
+	clear: both;
+}
+
+footer p {
+	color: rgba(224,232,241,1);
+	text-align: center;
+	text-transform: uppercase;
+	font-size: .80rem;
+}
+
+footer figure {
+	width: 33%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+footer #email {
+	display: inline-block;
+	width: 25%;
+	margin-left: 6%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+footer #phone {
+	display: inline-block;
+	width: 25%;
+	border-left: 1px solid rgba(224,232,241,1);
+	border-right: 1px solid rgba(224,232,241,1);
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+footer #address {
+	display: inline-block;
+	width: 25%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+
+
+
+
 
 
 
