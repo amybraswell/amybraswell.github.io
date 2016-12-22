@@ -97,6 +97,8 @@ html[xmlns] .flexslider .slides {
   height: 500px;
   -moz-user-select: none;
 }
+
+
 .flex-viewport {
   max-height: 2000px;
   -webkit-transition: all 1s ease;
@@ -136,6 +138,7 @@ html[xmlns] .flexslider .slides {
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  color: #FFF;
 }
 .flex-direction-nav a:before {
   font-family: "flexslider-icon";

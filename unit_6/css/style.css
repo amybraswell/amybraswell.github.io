@@ -18,7 +18,7 @@ header {
 	background-color: rgba(224,232,241,.7);
 }
 
-p, a, li{
+p, a, li,{
 	font-family: 'Lato', sans-serif;
 	font-size: 16px;
 	letter-spacing: .11rem;
@@ -249,9 +249,101 @@ input[name="comments"] {
  	opacity: .5;
 }
 
+
+
 .inside-figure {
 	position: relative;
 }
+
+.home-info {
+	display: none;
+	width: 100%;
+	height: 650px;
+	transform: translateY(-50%);
+	background: #888;
+	padding-left: 5%;
+	padding-right: 5%;
+	
+	padding-bottom: 3%;
+}
+
+
+
+
+a.home-details-Close {
+	float: right;
+	text-decoration: underline;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	letter-spacing: .085rem;
+	color: rgba(224,232,241,1);
+	font-weight: 300;
+	margin-top: 1%;
+}
+
+p.info {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	letter-spacing: .11rem;
+	color: rgba(224,232,241,1);
+	font-weight: 300;
+}
+
+#portfolio .slider {
+	width: 60%;
+	margin: 0 auto 0;
+	padding-top: 2%;	
+}
+
+#portfolio .slider img {
+	object-fit: cover;
+}
+
+.home-wrapper{
+	height: 750px;
+}
+
+/*********** #portfolio_two_column {
+	width: 100%;
+	padding: 10 px;
+	padding-bottom: 2%;
+	margin: 0 auto 0;
+	background-color: rgba(224,232,241,.7);
+	clear: both;
+}
+
+#portfolio_left {
+	width: 63%;
+	padding-left: 7%;
+	padding-right: 3%;
+	float: left;
+}
+
+#portfolio_right {
+	width: 33%;
+	padding-right: 7%;
+	padding-top: 5px;
+	float: right;
+}
+
+********************/
+
+
+
+/************** .home-info *****************
+	background: red;
+	position: absolute;
+	width: 100%;
+	height: 650px;
+	left: 000;
+	z-index: 1.0;
+	background: #888;
+
+	****************************************/
+
+
+
+
 
 /******************** FOR NEXT WEEK PORTFOLIO *************
 .home-details {
@@ -273,7 +365,7 @@ transform: translateY(-50%);
 /*************centers text horizontally**************/
 width: 100%;
 text-align: center;
-/*********************************************/
+/********************FIGCAPTION FONT STYLING*************************/
 font-family: 'Lato', sans-serif;
 font-size: 40px;
 letter-spacing: .11rem;
