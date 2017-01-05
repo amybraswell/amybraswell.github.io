@@ -817,9 +817,9 @@ and (max-width: 1024px) {
 
 	
 	.mobile-mailing-list {
-		width: 100%;
+		width: 90%;
 		height: 100%;
-		float: left;
+		margin: 5% auto 0;
 	}
 	
 	.mobile-mailing-list input {
