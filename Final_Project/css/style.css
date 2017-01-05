@@ -426,6 +426,10 @@ footer #address {
 	display: none;
 }
 
+#mobile-logo {
+	display: none;
+}
+
 /**********************************************MEDIA QUERY FOR TABLET**************************************/
 /**********************************************************************************************************/
 
@@ -606,26 +610,29 @@ and (max-width: 1024px) {
 @media only screen and (max-width: 768px) {
 	body {
 		font-size: 14pt;
-		overflow: hidden;
+		background-color: rgba(224, 232, 241, .7);
 	}
 	
 	h1 span {
 		font-size: 1.25em;
+		font-weight: 500;
 	}
 	
 	h1 {
-		font-size: 1em;
+		font-size: 1.1em;
+		font-weight: 500;
+		margin-top: 10px;
+		margin-bottom: 10px;
 	}
 
 	#company-name {
 		display: block;
 		float: left;
-		width: 80%;
+		width: 85%;
 		padding-left: 5%;
 	}
 	
 	header {
-		height: 49px;
 		background-color: #143a71;
 	}
 	
@@ -652,12 +659,12 @@ and (max-width: 1024px) {
 	#hamburger-container img{
 		width: 25px;
 		height: 23px;
-		margin-top:10px;		
+		margin-top: 20px;		
 	}
 	
 	.mobile-menu {
 		overflow: auto;
-		width: 20%;
+		width: 15%;
 		float: right;
 		height: 45px;
 		cursor: pointer;
@@ -685,7 +692,6 @@ and (max-width: 1024px) {
 
 	#drop-down {
 		background-color: #143a71;
-		min-height: 65px; 
 	}
 
 	#drop-down a {
@@ -718,27 +724,39 @@ and (max-width: 1024px) {
 	}
 	
 	#phone-slideshow {
-		height: 600px;
+		height: 100%;
 		overflow: hidden;
+		background-color: rgba(224, 232, 241, .7);
 	}
 
 	#phone-slideshow img {
-		height: 600px;
+		height: 100%;
 	}
+
+	.mobile-slider .flexslider .slides img {
+	transform: translateY(-12%);
+}
 	
 	#mobile-about {
 		width: 100%;
+		height: 100%;
 	}
 
-	.about {
-		background-color: rgba(224, 232, 241, .7);
+	#mobile-logo {
+		display: block;
+		width: 15%;
+		margin: 8% auto 0;
+	}
+
+	#mobile-logo img{
+		width: 100%;
 	}
 	
 	#mobile-about p {
 		font-size: 1.1em;
 		line-height: 1.6em;
 		text-align: justify;
-		padding: 8% 5% 5%;
+		padding: 3% 5% 5%;
 		clear: both;
 	}
 	
@@ -767,7 +785,6 @@ and (max-width: 1024px) {
 		height: 100px;
 		padding: 5%;
 	}
-	
 
 	.mobile-contact-left {
 		float: left;
@@ -783,6 +800,7 @@ and (max-width: 1024px) {
 		font-size: 1.2em;
 		color: #555;
 		text-align: left;
+		vertical-align: baseline;
 	}
 
 	.mobile-contact-right a {
@@ -799,13 +817,11 @@ and (max-width: 1024px) {
 		background-color: red;
 	}
 
-	
 
 	#phone {
 		background-color: yellow;
 	}
 
-	
 
 	#address {
 		background-color: blue;
@@ -819,8 +835,8 @@ and (max-width: 1024px) {
 	
 	.mobile-mailing-list {
 		width: 100%;
+		height: 100%;
 		float: left;
-		background-color: rgba(224, 232, 241, .7);
 		padding: 7% 7% 5%;
 	}
 	
@@ -837,7 +853,6 @@ and (max-width: 1024px) {
 		width: 33%;
 		float: right;
 		background-color: #999;
-		color: rgba(224, 232, 241, 1);
 		font-size: 1em;
 		font-weight: 300;
 		letter-spacing: .11em;
@@ -847,12 +862,59 @@ and (max-width: 1024px) {
 		width: 100%;
 		height: 30vw;
 	}
+
+	#mobile-wrapper {
+		background-color: #fff;
+	}
 	
 	#portfolio figure {
 		width: 100%;
-		padding: 5%;
+		padding: 7%;
 	}
-	
+
+	.portfolio-slider {
+		width: 135%;
+		height: 100%;
+		-webkit-transform: rotate(270deg); /* Safari and Chrome */
+	    -moz-transform: rotate(270deg);   /* Firefox */
+	    -ms-transform: rotate(270deg);   /* IE 9 */
+	    -o-transform: rotate(270deg);   /* Opera */
+	    transform: rotate(270deg);
+	    position: absolute;
+		margin: 0 auto 0;
+		zoom: .75;
+	}
+
+	.portfolio-slider .flexslider .slides img {
+		height: 455px;
+		margin-top: 15%; 
+		transform: translateY(-11%);
+	}
+
+	.portfolio-slider .flex-direction-nav .flex-next {
+		display: none;
+	}
+
+	.portfolio-slider .flex-direction-nav .flex-prev {
+		display: none;
+	}
+
+	.home-description-p {
+		display: none;
+	}
+
+	.close-button {
+	-webkit-transform: rotate(270deg); /* Safari and Chrome */
+    -moz-transform: rotate(270deg);   /* Firefox */
+    -ms-transform: rotate(270deg);   /* IE 9 */
+    -o-transform: rotate(270deg);   /* Opera */
+    transform: rotate(270deg);
+	float: left;
+	margin-left: 1%;
+	margin-top: 1%;
+	opacity: .5;
+	}
+
 	.regular-footer {
 		display: none;
 	}
@@ -869,8 +931,8 @@ and (max-width: 1024px) {
 		width: 100%;
 		display: block;
 		margin: 0 auto 0;
-		padding-left: 7%;
-		padding-right: 7%;
+		padding-left: 12%;
+		padding-right: 12%;
 	}
 	
 	#mobile-social figure {
@@ -887,45 +949,23 @@ and (max-width: 1024px) {
 		padding: 3%;
 	}
 	
-	.home-info {
-		padding-top: 500px;
-		margin-bottom: -750px;
-		transform: translateY(-50%);
-	}
-	
-	.portfolio-slider .slides {
-		zoom: .33;
-	}
-	
-	.portfolio-slider {
-		width: 85%;
-		height: 550px;
-		transform: translateY(-80%);
-		margin-bottom: -400px;
-	}
-	
-	.portfolio-slider .flexslider .slides img {
-		height: 550px;
-		transform: translateY(-3%);
-	}
-	
-	a.home-details-Close {
-		position: absolute;
-		top: 50px;
-		right: 20px;
-	}
-	
-	#two, #portraits, #about, #right, #wrapper, .hero-slider {
+	#two, #portraits, #about, #right, #wrapper, .hero-slider, #logo img {
 		display: none;
-	}
-	
-	#logo img {
-		display: none;
-	}
-	
-	.home-description-p {
-		display: none;
-	}
+	}	
 }
+
+/************ FIX HEADER FOR SMALLER THAN 400 PX WIDE ****************/
+/************ CHANGE OVERFLOW TO AUTO FOR LANDSCAPE ******************/
+/************ FORCE HOME PAGE TO PORTRAIT ORIENTATION ****************/
+/************************ USE CODE BELOW *****************************/
+/************
+div {
+    -webkit-transform: rotate(90deg); /* Safari and Chrome * (/)
+    -moz-transform: rotate(90deg);   /* Firefox * (/)
+    -ms-transform: rotate(90deg);   /* IE 9 * (/)
+    -o-transform: rotate(90deg);   /* Opera * (/)
+    transform: rotate(90deg);
+} 
+***************/
 
 
