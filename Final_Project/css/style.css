@@ -31,7 +31,7 @@ header {
 	background-color: rgba(224, 232, 241, .7);
 }
 
-p, a, li, {
+p, a, li {
 	font-family: 'Lato', sans-serif;
 	font-size: 1em;
 	letter-spacing: .11rem;
@@ -103,6 +103,10 @@ h1 span {
 
 #slideshow img {
 	object-fit: cover;
+}
+
+.flexslider .slides > li:first-child {
+	float: left; display: block;
 }
 
 .hero-slider .flex-direction-nav .flex-next {
@@ -201,11 +205,20 @@ h1 span {
 	font-size: 1em;
 }
 
-.form input {
+.form input, textarea {
+	font-family: 'Lato', sans-serif;
+	font-size: 1em;
+	letter-spacing: .05rem;
+	color: #888;
+	font-weight: 300;
+}
+
+.form input, textarea {
 	margin: .5vw auto 1vw;
-	padding: 0 10px 0 10px;
-	width: 65%;
-	line-height: 2em;
+	padding: 5px 10px 0 10px;
+	width: 85%;
+	height: 3vw;
+	line-height: 1.3em;
 	border: none;	
 }
 
@@ -220,9 +233,9 @@ input[type="submit"] {
 	border: none;
 }
 
-input[name="comments"] {
+textarea[name="comments"] {
 	width: 100%;
-	height: 10vw;
+	height: 11vw;
 }
 
 /****************************** WRAPPER FOR PORTFOLIO ****************************************/
@@ -614,12 +627,12 @@ and (max-width: 1024px) {
 	}
 	
 	h1 span {
-		font-size: 1.25em;
+		font-size: .75em;
 		font-weight: 500;
 	}
 	
 	h1 {
-		font-size: 1.1em;
+		font-size: .5em;
 		font-weight: 500;
 		margin-top: 10px;
 		margin-bottom: 10px;
@@ -724,13 +737,13 @@ and (max-width: 1024px) {
 	}
 	
 	#phone-slideshow {
-		height: 100%;
+		height: 60%;
 		overflow: hidden;
 		background-color: rgba(224, 232, 241, .7);
 	}
 
 	#phone-slideshow img {
-		height: 100%;
+		height: 60%;
 	}
 
 	.mobile-slider .flexslider .slides img {
@@ -850,7 +863,7 @@ and (max-width: 1024px) {
 	}
 	
 	#portfolio figure {
-		width: 100%;
+		width: 85%;
 		padding: 7%;
 	}
 
