@@ -443,6 +443,10 @@ footer #address {
 	display: none;
 }
 
+#drop-down {
+		display: none;
+	}
+
 /**********************************************MEDIA QUERY FOR TABLET**************************************/
 /**********************************************************************************************************/
 
@@ -705,6 +709,7 @@ and (max-width: 1024px) {
 
 	#drop-down {
 		background-color: #143a71;
+		display: block;
 	}
 
 	#drop-down a {
