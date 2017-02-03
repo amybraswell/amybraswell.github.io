@@ -443,7 +443,7 @@ footer #address {
 	display: none;
 }
 
-#drop-down {
+#ham {
 		display: none;
 	}
 
@@ -727,6 +727,10 @@ and (max-width: 1024px) {
 	#drop-down div {
 		text-align: center;
 		background-color: #143a71; 
+	}
+
+	#ham {
+		display: block;
 	}
 	
 	.mobile-slider {
