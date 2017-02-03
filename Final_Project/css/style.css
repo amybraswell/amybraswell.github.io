@@ -443,7 +443,7 @@ footer #address {
 	display: none;
 }
 
-#drop-down {
+#hamburger-container {
 		display: none;
 	}
 
@@ -707,9 +707,12 @@ and (max-width: 1024px) {
 		color: white;
 	}
 
+	#hamburger-container {
+		display: block;
+	}
+
 	#drop-down {
 		background-color: #143a71;
-		display: block;
 	}
 
 	#drop-down a {
