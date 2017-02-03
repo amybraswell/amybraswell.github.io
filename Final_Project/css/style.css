@@ -954,18 +954,6 @@ and (max-width: 1024px) {
 	}	
 }
 
-/************ FIX HEADER FOR SMALLER THAN 400 PX WIDE ****************/
-/************ CHANGE OVERFLOW TO AUTO FOR LANDSCAPE ******************/
-/************ FORCE HOME PAGE TO PORTRAIT ORIENTATION ****************/
-/************************ USE CODE BELOW *****************************/
-/************
-div {
-    -webkit-transform: rotate(90deg); /* Safari and Chrome * (/)
-    -moz-transform: rotate(90deg);   /* Firefox * (/)
-    -ms-transform: rotate(90deg);   /* IE 9 * (/)
-    -o-transform: rotate(90deg);   /* Opera * (/)
-    transform: rotate(90deg);
-} 
-***************/
+
 
 
