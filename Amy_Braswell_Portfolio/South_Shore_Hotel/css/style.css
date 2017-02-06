@@ -1,0 +1,565 @@
+/************************************ UNIVERSAL SELECTOR *********************************/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+/**************************************** CLEARFIX ***************************************/
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+/************************************* CSS of SITE ***************************************/
+
+body {
+	font-size: 16px;
+}
+
+header {
+	width: 100%;
+}
+
+p, a, li, {
+	font-family: 'Lato', sans-serif;
+	font-size: 1em;
+	letter-spacing: .11rem;
+	color: #888;
+	font-weight: 300;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	color: rgba(0, 0, 0, 1);
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	text-align: center;
+	font-size: 1em;
+}
+
+h2 {
+	color: rgba(0, 0, 0, 1);
+	font-family: 'Lato', sans-serif;
+	font-weight: 200;
+	text-align: center;
+	font-size: 2em;
+	letter-spacing: .025em;
+	line-height: 1.3em;
+}
+
+h3 {
+	color: rgba(0, 0, 0, 1);
+	font-family: 'Lato', sans-serif;
+	font-weight: 200;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+::-webkit-scrollbar {
+	height: 0px !important;
+	width: 0px !important;
+	display: none !important;
+}
+
+/*************************************** LAYOUT OF SITE **********************************/
+
+#Chicago {
+	width: 100%;
+}
+
+#content {
+	width: 100%;
+}
+
+#left-content {
+	float: left;
+	width: 70%;
+}
+
+#right-content {
+	float: left;
+	width: 30%;
+}
+
+#two_column_weather {
+	width: 100%;
+	opacity: .8;
+	padding: 2% 5% 2%;
+}
+
+#thingsToDo {
+	width: 100%;
+	padding: 2% 5% 2%;
+	margin: 0 auto 5%;
+	padding: 0 6% 0 6%;
+}
+
+#property {
+	width: 100%;
+	padding: 0% 5% 2%;
+	position: relative;
+	opacity: .95;
+	height: 105vh;
+}
+
+#customer {
+	width: 100%;
+	height: 65vh;
+	padding: 0 5% 0;
+}
+
+aside {
+	width: 100%;
+	padding: 2% 5% 2%;
+	height: 290vh;
+	padding: 0 10%;
+	background-color: #ddd;
+	border-top: solid .3vw #ddd;
+}
+
+/**************************************** Header *****************************************/
+#header-container {
+	width: 100%;
+}
+
+#header-left {
+	width: 80%;
+	float: left;
+}
+
+#header-right {
+	width: 20%;
+	float: right;
+}
+
+.logo {
+	height: 72px;	
+	width: 128px;
+	margin: 1% 3%;
+}
+
+#two figure {
+	width: 30%;
+	float: left;
+	padding: 2%;
+}
+
+#two img {
+	display: inline;
+	height: 48px;
+	width: 48px;
+	margin-top: 30%;
+	margin-left: 3%;
+	opacity: .5;
+}
+/*********************************** Header Carousel *************************************/
+
+.carousel {
+	position: relative;
+	opacity: .90;
+	height: 600px;
+	overflow-y: hidden;
+}
+
+#headline {
+	color: rgba(255, 255, 255, 1);
+	position: absolute;
+	top: 45%;
+	transform: translateY(-50%);
+	width: 100%;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-weight: 600;
+	font-size: 5em;
+	padding: 5%;
+	text-shadow: 2px 2px #000;
+	z-index: 100;
+}
+
+#Chicago-slider .flex-direction-nav .flex-next {
+	display: none;
+}
+
+#Chicago-slider .flex-direction-nav .flex-prev {
+	display: none;
+}
+
+/************************************* STAY DATES ****************************************/
+
+#stayDates {
+	height: 100px;
+	width: 100%;
+	background: rgba(0, 0, 0, .6);
+	transform: translateY(-125%);
+	position: absolute;
+}
+
+/********************************** Stay Dates Form **************************************/
+
+#stayDates form {
+	display: inline-block;
+	float: left;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 50%;
+	transform: translateY(-50%);
+	vertical-align: bottom;
+}
+
+/******************************* date input boxes in form ********************************/
+
+.dates {
+	border: none;
+	height: 45px;
+	width: 21%;
+	font-family: 'Lato', sans-serif;
+	font-weight: 200;
+	font-size: 1.13em;
+	padding: 5px;
+	letter-spacing: .11em;
+	color: rgba(0, 0, 0, .4);
+	margin-left: -1%;
+}
+
+/******************* text boxes to say "Check-In" and "Check-Out" ************************/
+
+input[type="text"] {
+	width: 12%;
+	height: 45px;
+	color: rgba(0, 0, 0, 1);
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 1.13em;
+	padding: 5px;
+	letter-spacing: .055em;
+	text-align: left;
+}
+
+/************************************ Submit button **************************************/
+
+input[type="submit"] {
+	border: none;
+	height: 46px;
+	width: 10%;
+	background-color: red;
+	color: #FFF;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 1.13em;
+	padding: 6px;
+	letter-spacing: .11em;
+}
+
+/************************************* WEATHER API ***************************************/
+
+#left_weather {
+	width: 12%;
+	display: inline-block;
+	float: left;
+	padding: 1%;
+}
+
+#weather li {
+	color: rgba(0, 0, 0, .4);
+	font-family: 'Lato', sans-serif;
+	font-weight: 200;
+	text-align: left;
+	font-size: .9em;
+	line-height: 1.5em;
+	letter-spacing: .05em;
+}
+
+#right_weather {
+	width: 86%;
+	display: inline-block;
+	float: right;
+	text-align: center;
+	margin-top: 1%;
+}
+
+#left-pix {
+	width: cover;
+	display: block;
+}
+
+/*************************************** THINGS TO DO ************************************/
+
+.inside-figure {
+	position: relative;
+}
+
+#thingsToDo figure {
+	width: 25%;
+	float: left;
+	position: relative;
+	padding: 10px;
+}
+
+#thingsToDo img {
+	display: block;
+	width: 100%;
+}
+
+#thingsToDo figure figcaption {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	text-align: center;
+	transition: all .75s ease-in-out;
+}
+
+#thingsToDo figure:hover figcaption {
+	opacity: 1;
+}
+
+#thingsToDo figure:hover img {
+	opacity: .3;
+}
+
+#thingsToDo h2 {
+	margin-bottom: 2%;
+	font-weight: 500;
+	text-align: left;
+	margin-left: -3%;
+}
+
+/**********************************THINGS TO DO FIGCAPTION************************************/
+
+/*************centers text*********************/
+#thingsToDo figure figcaption div {
+	/*************centers text vertically**********/
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	/***********centers text horizontally**********/
+	width: 100%;
+	text-align: center;
+	/***********FIGCAPTION FONT STYLING************/
+	font-family: 'Lato', sans-serif;
+	font-size: 1.3em;
+	letter-spacing: .11rem;
+	color: #888;
+	font-weight: 500;
+	text-shadow: 1px 1px #888;
+}
+#thingsToDo figure figcaption div a {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.3em;
+	letter-spacing: .11rem;
+	color: #888;
+}
+
+#thingsToDo figure figcaption div a h3 {
+	font-family: 'Lato', sans-serif;
+	font-size: .85em;
+	letter-spacing: .05rem;
+	color: #888;
+	font-weight: 500;
+	text-shadow: 1px 1px #888;
+}
+
+.open-button {
+	border: none;
+	font-family: 'Lato', sans-serif;
+	font-size: .9em;
+	letter-spacing: .11rem;
+	color: #888;
+	background-color: rgba(0,0,0,0)
+}
+
+.close-button {
+	font-family: 'Lato', sans-serif;
+	font-size: 2em;
+	transform: scaleY(0.8);
+	font-weight: 100;
+	display: block;
+	float: right;
+	border: none;
+	background-color: white;
+	margin-right: 5%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	opacity: .5;
+}
+
+/********************************** THING INFO POP-UPs ************************************/
+
+.thing-pop-up-content {
+	width: 75%;
+	height: 100vh;
+	margin: 0 auto 0;
+}
+
+.thing-left-content {
+	float: left;
+	width: 40%;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.thing-right-content {
+	float: right;
+	width: 60%;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	padding-left: 15%;
+}
+
+.thing-description-p a{
+	width: 100%;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.1em;
+	line-height: 1.7em;
+	letter-spacing: .055rem;
+	color: rgba(0, 0, 0, .7);
+	font-weight: 300;
+}
+
+/******************************* PROPERTY PHOTOS CAROUSEL ********************************/
+
+#property h2 {
+	font-weight: 500;
+	text-align: left;
+	margin-left: -1.75%;
+}
+
+.property-photos {
+	display: block;
+	width: 100%;
+	float: left;
+	height: auto;
+	top: 0;
+	position: absolute;
+	left: 0;
+	margin-top: 8%;
+}
+
+.property-photos ul {
+	list-style: none outside none;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+.property-photos li {
+	display: block;
+	float: left;
+	margin-right: 6px;
+	cursor: pointer;
+	data: thumb;
+}
+
+.property-photos img {
+	display: block;
+	height: auto;
+	max-width: 100%;
+	object-fit: cover;
+}
+
+/***************************** Customer Instagram & Quotes ********************************/
+
+#Instagram {
+	width: 40%;
+	float: left;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 275px;
+	height: 275px;
+}
+
+
+#quote {
+	width: 52%;
+	float: right;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	margin: 0 auto 0;
+}
+
+#quote h2 {
+	font-weight: 500;
+	text-align: center;
+}
+/************************************ Twitter Aside ***************************************/
+
+#twitterFeed {
+	margin-top: 10%;
+	transform: translateY(-8vw);
+}
+p.timeline-header-description {
+	display: none;
+}
+
+/************************************* Footer **********************************************/
+footer {
+	width: 100%;
+	background-color: #555;
+	display: inline-block;
+	clear: both;
+}
+
+footer p {
+	color: #FFF;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: .80rem;
+	letter-spacing: .05em;
+}
+
+footer figure {
+	width: 33%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+footer #email {
+	display: inline-block;
+	width: 25%;
+	margin-left: 6%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+footer #phone {
+	display: inline-block;
+	width: 25%;
+	border-left: 1px solid #FFF;
+	border-right: 1px solid #FFF;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+footer #address {
+	display: inline-block;
+	width: 25%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}

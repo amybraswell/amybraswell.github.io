@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>South Shore Hotel</title>
+		<meta name="viewport" content="width=device-width, initialscale=1"> 
+		<link type="text/css" rel="stylesheet" href="css/lightslider.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/lightslider.js"></script>
+		<link rel="stylesheet" href="css/slidebars.css">
+		<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato:100,200,300, 500,600,700 rel="stylesheet">	
+	</head>
+
+	<body>
+		<header>
+			<div id="header-container" class="clearfix">
+				<div id="header-left">
+					<img class="logo" src="images/Chicago_Lake_Shore_Logo.jpg" alt="logo">
+				</div>
+
+				<div id="header-right">
+					<nav id="two">
+						<figure>
+							<a href="mailto:info@chicagolakeshorehotel.com"><img alt="link to Facebook" src="images/contact/email.png"></a>
+						</figure>
+
+
+						<figure>
+							<a href="tel:7732885800"><img alt="link to Houzz" src="images/contact/phone.png"></a>
+						</figure>
+
+
+						<figure>
+							<a target="_blank" href="http://maps.google.com/?q=4900 South Lake Shore Drive, Chicago, IL, 60615"><img alt="link to Pinterest" src="images/contact/address.png"></a>
+						</figure>
+					</nav>
+				</div>
+			</div>
+		</header>
+		
+
+
+<!--  HEADER IMAGES OF CHICAGO -->
+	<article class="carousel" id="Chicago">	
+<!--Carousel of strong Chicago Photos-->
+<!-- This is a flexslider slideshow for hero images of site -->	
+		<section id="slideshow" class="slider">
+			<div id="Chicago-slider" class="flexslider">
+				<ul class="slides">
+					<li><img src="images/Chgo-slideshow/Chgo-1.jpg" alt= "slideshow of images"/></li>
+
+					<li><img src="images/Chgo-slideshow/Chgo-2.jpg" alt= "slideshow of images"/></li>
+				
+					<li><img src="images/Chgo-slideshow/Chgo-3.jpg" alt= "slideshow of images"/></li>
+					
+					<li><img src="images/Chgo-slideshow/Chgo-4.jpg"  alt= "slideshow of images"/></li>
+					
+					<li><img src="images/Chgo-slideshow/Chgo-5.jpg" alt= "slideshow of images"/></li>
+				</ul>	
+			</div>		
+		</section>
+		<h1 id="headline"> See Chicago at a price you can afford </h1>
+	</article>
+
+	<article id="stayDates">	
+<!-- Form for user to enter dates of Stay -->
+		<form>	
+  				<input type="text" name="Check-In dates" value="Check-In:">
+  				<input type="date" name="Check-In" class="dates">
+					<input type="text" name="Check-Out dates" value="Check-Out:">
+					<input type="date" name="Check-Out" class="dates">  
+  				<input type="submit" value="Submit">
+		</form>	
+	</article>
+
+	
+
+
+<div class="clearfix" id="wrapper">
+	<div id="content">
+		<div id="left-content">
+
+			<article id="weather">
+		<!-- Weather widget to provide weather for dates of Stay -->
+		<!-- This creates the two column layout in the second part of the site-->
+							
+				<div id="two_column_weather" class="clearfix">
+					<div id="wrapper-weather-api">
+				
+						<figure id="left_weather">
+							<div id="weather-icon">
+								<div id="left-pix">
+									<img class="icon" src= "#"/>
+								</div>	
+							</div>
+						</figure>
+
+						<figure id="right_weather">
+							<div id="wunderground">
+								<ul id=weatherConditions>
+								</ul>
+							</div>
+						</figure>
+					</div>
+				</div>				
+			</article>
+
+			<article id="thingsToDo">
+				<h2>Discover all Chicago has to offer...</h2>
+				
+		<!--THING 1 -->
+					<figure>
+						<div class="inside-figure">
+						
+							<section class="thing-details" id="thing-1">
+								<img alt="link to project" src="images/thingsToDo/thumbnails/Lakefront.png">
+
+								<figcaption>
+									<div>
+										<button id="js-open-left-slidebar-1" class="open-button"><a>Lakefront</a></button>
+									</div>
+								</figcaption>
+							</section>
+						</div>
+					</figure>
+
+
+					<div off-canvas="slidebar-1 left reveal">
+							
+						<button id="js-close-left-slidebar-1" class="close-button">X</button>				 
+		<!--This is a pop up div for thing-1 -->
+						<div class="clearfix" id="thing-1-wrapper">
+
+							<div class="thing-pop-up-content">
+							
+								<div class="thing-left-content">
+									<section class="thing-image" id="thing-1">
+										
+										<img alt="link to project" src="images/thingsToDo/thumbnails/Lakefront.png">
+										
+									</section>
+								</div>
+
+								<div class= "thing-right-content">
+									<section class="thing-description-p" id="description-thing-1">
+										
+										<ul>
+											<li><a target="_blank" href=http://www.cpdbeaches.com/beaches/31st-street-beach/>31st Street Beach and Harbor</a></li>
+											<li><a target="_blank" href="http://www.chicagowatersportrentals.com/">Chicago Water Sport Rental</a></li>
+											<li><a target="_blank" href="http://www.bikeandroll.com/chicago/">Bike and Roll Bicycle Rentals</a></li>
+											<li><a target="_blank" href="http://www.chicagosegwaytour.com/lakefront-tours.aspx">Chicago Segway Tour</a></li>
+										</ul>
+										
+									</section>
+								</div>						
+							</div>
+						</div>		
+					</div>
+
+		<!--THING 2 -->
+					<figure>
+						<div class="inside-figure">
+							<section class="home-details" id="thing-2">
+								<img alt="link to project" src="images/thingsToDo/thumbnails/Museums.png">
+
+								<figcaption>
+									<div>
+										<button id="js-open-left-slidebar-2" class="open-button"><a>Museums</a></button>
+									</div>
+								</figcaption>
+							</section>
+						</div>
+					</figure>
+
+
+					<div off-canvas="slidebar-2 left reveal">	
+				
+						<button id="js-close-left-slidebar-2" class="close-button">X</button>				 
+		<!-- This is a pop up div for thing-2 -->
+						<div class="clearfix" id="thing-2-wrapper">
+
+							<div class="thing-pop-up-content">
+							
+								<div class="thing-left-content">
+									<section class="thing-image" id="thing-2">
+										
+										<img alt="link to project" src="images/thingsToDo/thumbnails/Museums.png">
+										
+									</section>
+								</div>
+
+								<div class= "thing-right-content">
+									<section class="thing-description-p" id="description-thing-2">
+										
+										<ul>
+											<li><a target="_blank" href="http://www.adlerplanetarium.org/?gclid=COnYsaCm-tECFR61wAod9JUOEA#Mlf5jLDfPUXM1AHU.97">Adler Planetarium</a></li>
+											<li><a target="_blank" href="http://www.artic.edu/">Art Institute of Chicago</a></li>
+											<li><a target="_blank" href="http://www.chicagochildrensmuseum.org/?gclid=COPrzfKm-tECFZSIaQody7QBBA">Chicago Children's Museum</a></li>
+											<li><a target="_blank" href="https://www.chicagohistory.org/">Chicago History Museum</a></li>
+											<li><a target="_blank" href="http://www.dusablemuseum.org/">DuSable Museum of African America History</a></li>
+											<li><a target="_blank" href="https://www.fieldmuseum.org/?gclid=CN36h7yn-tECFY-6wAodS5wKUA">Field Museum</a></li>
+											<li><a target="_blank" href="https://mcachicago.org/Home">Museum of Contemporary Art</a></li>
+											<li><a target="_blank" href="http://www.msichicago.org/">Museum of Science and Industry"</a></li>
+											<li><a target="_blank" href="http://www.naturemuseum.org/">Peggy Notebaert Nature Museum</a></li>
+											<li><a target="_blank" href="http://www.renaissancesociety.org/">Renaissance Society</a></li>
+										</ul>
+										
+									</section>
+								</div>		
+							</div>
+						</div>
+					</div>
+
+		<!--THING 3 -->
+					<figure>
+						<div class="inside-figure">
+							<section class="thing-details" id="thing-3">
+								<img alt="link to project" src="images/thingsToDo/thumbnails/Parks.png">
+
+								<figcaption>
+									<div>
+										<button id="js-open-left-slidebar-3" class="open-button"><a>Parks</a></button>
+									</div>
+								</figcaption>
+							</section>
+						</div>
+					</figure>
+
+
+				<div off-canvas="slidebar-3 left reveal">
+					
+					<button id="js-close-left-slidebar-3" class="close-button">X</button>	 
+		 <!-- This is a pop up div for thing-3 -->
+					<div class="clearfix" id="thing-3-wrapper">
+
+						<div class="thing-pop-up-content">
+						
+							<div class="thing-left-content">
+								<section class="thing-image" id="thing-3">
+									
+									<img alt="link to project" src="images/thingsToDo/thumbnails/Parks.png">
+									
+								</section>
+							</div>
+
+							<div class= "thing-right-content">
+								<section class="thing-description-p" id="description-thing-3">
+									<ul>
+											<li><a target="_blank" href="http://www.chicagoparkdistrict.com/parks/Burnham-Park/">Burnham Park</a></li>
+											<li><a target="_blank" href="http://www.chicagoparkdistrict.com/parks/Garfield-Park/">Garfield Park</a></li>
+											<li><a target="_blank" href="http://www.chicagoparkdistrict.com/parks/grant-park/">Grant Park</a></li>
+											<li><a target="_blank" href="http://www.chicagoparkdistrict.com/parks/humboldtpark/">Humboldt Park</a></li>
+											<li><a target="_blank" href="http://www.chicagoparkdistrict.com/parks/jackson-park/">Jackson Park</a></li>
+											<li><a target="_blank" href="http://www.chicagoparkdistrict.com/parks/lincoln-park/">Lincoln Park</a></li>
+											<li><a target="_blank" href="https://www.cityofchicago.org/city/en/depts/dca/supp_info/millennium_park.html">Millenium Park</a></li>
+											<li><a target="_blank" href="http://maggiedaleypark.com/">Maggie Daley Park</a></li>
+											<li><a target="_blank" href="http://www.chicagoparkdistrict.com/parks/washington-park/">Washington Park</a></li>
+										</ul>
+									
+								</section>
+							</div>	
+						</div>
+					</div>
+				</div>
+
+		<!--THING 4 -->
+					<figure>
+						<div class="inside-figure">
+							<section class="thing-details" id="thing-4">
+								<img alt="link to project" src="images/thingsToDo/thumbnails/Architecture.png">
+
+								<figcaption>
+									<div>
+										<button id="js-open-left-slidebar-4" class="open-button"><a>Architecture</a></button>
+									</div>
+								</figcaption>
+							</section>
+						</div>
+					</figure>
+
+
+				<div off-canvas="slidebar-4 left reveal">
+					
+					<button id="js-close-left-slidebar-4" class="close-button">X</button>		 
+		 <!-- This is a pop up div for thing-4 -->
+					<div class="clearfix" id="thing-4-wrapper">
+
+						<div class="thing-pop-up-content">
+						
+							<div class="thing-left-content">
+								<section class="thing-image" id="thing-4">
+									
+									<img alt="link to project" src="images/thingsToDo/thumbnails/Architecture.png">
+									
+								</section>
+							</div>
+
+							<div class= "thing-right-content">
+								<section class="thing-description-p" id="description-thing-4">
+									
+									<p> BEGIN HERE jdfkljlkdsjflkasdjflkasdjlkdsafj;lkasdfj  </p>
+									
+								</section>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+
+		<!--THING 5 -->
+					<figure>
+						<div class="inside-figure">
+							<section class="thing-details" id="thing-5">
+								<img alt="link to project" src="images/thingsToDo/thumbnails/Restaurants.png">
+
+								<figcaption>
+									<div>
+										<button id="js-open-left-slidebar-5" class="open-button"><a>Restaurants</a></button>
+									</div>
+								</figcaption>
+							</section>
+						</div>
+					</figure>
+
+
+				<div off-canvas="slidebar-5 left reveal">
+					
+					<button id="js-close-left-slidebar-5" class="close-button">X</button>
+				 
+		<!-- This is a pop up div for thing-5 -->
+					<div class="clearfix" id="thing-5-wrapper">
+
+						<div class="thing-pop-up-content">
+						
+							<div class="thing-left-content">
+								<section class="thing-image" id="thing-5">
+									
+									<img alt="link to project" src="images/thingsToDo/thumbnails/Restaurants.png">
+									
+								</section>
+							</div>
+
+							<div class= "thing-right-content">
+								<section class="thing-description-p" id="description-thing-5">
+									
+									<p> BEGIN HERE jdfkljlkdsjflkasdjflkasdjlkdsafj;lkasdfj  </p>
+									
+								</section>
+							</div>	
+						</div>
+					</div>
+				</div>
+
+		<!--THING 6 -->
+					<figure>
+						<div class="inside-figure">
+							<section class="thing-details" id="thing-6">
+								<img alt="link to project" src="images/thingsToDo/thumbnails/NavyPier.png">
+
+								<figcaption>
+									<div>
+										<button id="js-open-left-slidebar-6" class="open-button"><a>Navy</br>Pier</a></button>
+									</div>
+								</figcaption>
+							</section>
+						</div>
+					</figure>
+
+
+				<div off-canvas="slidebar-6 left reveal">
+					
+					<button id="js-close-left-slidebar-6" class="close-button">X</button>
+						 
+		<!-- This is a pop up div for thing-6 -->
+					<div class="clearfix" id="thing-6-wrapper">
+
+						<div class="thing-pop-up-content">
+						
+							<div class="thing-left-content">
+								<section class="thing-image" id="thing-6">
+									
+									<img alt="link to project" src="images/thingsToDo/thumbnails/NavyPier.png">
+									
+								</section>
+							</div>
+
+							<div class= "thing-right-content">
+								<section class="thing-description-p" id="description-thing-6">
+									
+									<p> BEGIN HERE jdfkljlkdsjflkasdjflkasdjlkdsafj;lkasdfj  </p>
+									
+								</section>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+
+		<!--THING 7 -->
+					<figure>
+						<div class="inside-figure">
+							<section class="thing-details" id="thing-7">
+								<img alt="link to project" src="images/thingsToDo/thumbnails/SportingEvents.png">
+
+								<figcaption>
+									<div>
+										<button id="js-open-left-slidebar-7" class="open-button"><a>Sporting</br>Events</a></button>
+									</div>
+								</figcaption>
+							</section>
+						</div>
+					</figure>
+
+
+				<div off-canvas="slidebar-7 left reveal">
+						
+					<button id="js-close-left-slidebar-7" class="close-button">X</button>
+		<!-- This is a pop up div for thing-7 -->
+					<div class="clearfix" id="thing-7-wrapper">
+
+						<div class="thing-pop-up-content">
+						
+							<div class="thing-left-content">
+								<section class="thing-image" id="thing-7">
+									
+									<img alt="link to project" src="images/thingsToDo/thumbnails/SportingEvents.png">
+									
+								</section>
+							</div>
+
+							<div class= "thing-right-content">
+								<section class="thing-description-p" id="description-thing-7">
+									
+									<ul>
+										<li><a target="_blank" href="http://www.chicagobears.com//">Chicago Bears</a></li>
+										<li><a target="_blank" href="https://www.nhl.com/blackhawks/">Chicago Blackhawks</a></li>
+										<li><a target="_blank" href="http://www.nba.com/bulls/">Chicago Bulls</a></li>
+										<li><a target="_blank" href="http://chicago.cubs.mlb.com/index.jsp?c_id=chc">Chicago Cubs</a></li>
+										<li><a target="_blank" href="http://chicago.whitesox.mlb.com/index.jsp?c_id=cws">Chicago White Sox</a></li>
+									</ul>
+									
+								</section>
+							</div>	
+						</div>
+					</div>
+				</div>
+
+		<!--THING 8 -->
+					<figure>
+						<div class="inside-figure">
+							<section class="thing-details" id="thing-8">
+								<img alt="link to project" src="images/thingsToDo/thumbnails/Neighborhoods.png">
+
+								<figcaption>
+									<div>
+										<button id="js-open-left-slidebar-8" class="open-button"><a><h3>Neighborhoods</h3></a></button>
+									</div>
+								</figcaption>
+							</section>
+						</div>
+					</figure>
+
+
+				<div off-canvas="slidebar-8 left reveal">
+					
+					<button id="js-close-left-slidebar-8" class="close-button">X</button>		 
+		<!-- This is a pop up div for thing-8 -->
+					<div class="clearfix" id="thing-8-wrapper">
+
+						<div class="thing-pop-up-content">
+						
+							<div class="thing-left-content">
+								<section class="thing-image" id="thing-8">
+									
+									<img alt="link to project" src="images/thingsToDo/thumbnails/Neighborhoods.png">
+									
+								</section>
+							</div>
+
+							<div class= "thing-right-content">
+								<section class="thing-description-p" id="description-thing-9">
+									
+									<p> BEGIN HERE jdfkljlkdsjflkasdjflkasdjlkdsafj;lkasdfj  </p>
+									
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
+
+		<!--THING 9 -->
+					<figure>
+						<div class="inside-figure">
+							<section class="thing-details" id="thing-9">
+								<img alt="link to project" src="images/thingsToDo/thumbnails/MusicFestivals.png">
+
+								<figcaption>
+									<div>
+										<button id="js-open-left-slidebar-9" class="open-button"><a>Music</br>Festivals</a></button>
+									</div>
+								</figcaption>
+							</section>
+						</div>
+					</figure>
+
+
+				<div off-canvas="slidebar-9 left reveal">
+					
+					<button id="js-close-left-slidebar-9" class="close-button">X</button>				 
+		<!-- This is a pop up div for thing-9 -->
+					<div class="clearfix" id="thing-9-wrapper">
+
+						<div class="thing-pop-up-content">
+						
+							<div class="thing-left-content">
+								<section class="thing-image" id="thing-9">
+									
+									<img alt="link to project" src="images/thingsToDo/thumbnails/MusicFestivals.png">
+									
+								</section>
+							</div>
+
+							<div class= "thing-right-content">
+								<section class="thing-description-p" id="description-thing-9">
+									
+									<ul>
+										<li>Chicago Blues Festival</li>
+										<li>Chicago Gospel Music Festival</li>
+										<li>Chicago Jazz Festival</li>
+										<li>Lollapalooza</li>
+										<li>Pitchfork</li>
+										<li>Riot Fest</li>
+										<li>Windy City LakeShake</li>
+									</ul>
+
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
+
+		<!--THING 10 -->
+					<figure>
+						<div class="inside-figure">
+							<section class="thing-details" id="thing-10">
+								<img alt="link to project" src="images/thingsToDo/thumbnails/Universities.png">
+
+								<figcaption>
+									<div>
+										<button id="js-open-left-slidebar-10" class="open-button"><a>Universities</a></button>
+									</div>
+								</figcaption>
+							</section>
+						</div>
+					</figure>
+
+
+			<div off-canvas="slidebar-10 left reveal">
+					
+					<button id="js-close-left-slidebar-10" class="close-button">X</button>		 
+		<!-- This is a pop up div for thing-10 -->
+					<div class="clearfix" id="thing-10-wrapper">
+
+						<div class="thing-pop-up-content">
+						
+							<div class="thing-left-content">
+								<section class="thing-image" id="thing-10">
+									
+									<img alt="link to project" src="images/thingsToDo/thumbnails/Universities.png">
+									
+								</section>
+							</div>
+
+							<div class= "thing-right-content">
+								<section class="thing-description-p" id="description-thing-10">
+									
+									<p> BEGIN HERE jdfkljlkdsjflkasdjflkasdjlkdsafj;lkasdfj  </p>
+									
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
+
+		<!--THING 11 -->
+					<figure>
+						<div class="inside-figure">
+							<section class="thing-details" id="thing-11">
+								<img alt="link to project" src="images/thingsToDo/thumbnails/Theater.png">
+
+								<figcaption>
+									<div>
+										<button id="js-open-left-slidebar-11" class="open-button"><a>Theater</a></button>
+									</div>
+								</figcaption>
+							</section>
+						</div>
+					</figure>
+
+
+				<div off-canvas="slidebar-11 left reveal">
+					
+					<button id="js-close-left-slidebar-11" class="close-button">X</button>		 
+		<!-- This is a pop up div for thing-11 -->
+					<div class="clearfix" id="thing-11-wrapper">
+
+						<div class="thing-pop-up-content">
+						
+							<div class="thing-left-content">
+								<section class="thing-image" id="thing-11">
+									
+									<img alt="link to project" src="images/thingsToDo/thumbnails/Theater.png">
+									
+								</section>
+							</div>
+
+							<div class= "thing-right-content">
+								<section class="thing-description-p" id="description-thing-11">
+									
+									<ul>
+										<li>Chicago Lyric Opera</li>
+										<li>The Goodman Theater</li>
+										<li>Improv Olympic</li>
+										<li>Joffrey Ballet</li>
+										<li>The Second City</li>
+										<li>Shakespeare Theater</li>
+										<li>Steppenwolf</li>
+									</ul>
+									
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
+
+		<!--THING 12 -->
+					<figure>
+						<div class="inside-figure">
+							<section class="thing-details" id="thing-12">
+								<img alt="link to project" src="images/thingsToDo/thumbnails/Hospitals.png">
+
+								<figcaption>
+									<div>
+										<button id="js-open-left-slidebar-12" class="open-button"><a>Hospitals</a></button>
+									</div>
+								</figcaption>
+							</section>
+						</div>
+					</figure>
+
+
+				<div off-canvas="slidebar-12 left reveal">
+					
+					<button id="js-close-left-slidebar-12" class="close-button">X</button>
+		<!-- This is a pop up div for thing-12 -->
+					<div class="clearfix" id="thing-12-wrapper">
+
+						<div class="thing-pop-up-content">
+						
+							<div class="thing-left-content">
+								<section class="thing-image" id="thing-12">
+									
+									<img alt="link to project" src="images/thingsToDo/thumbnails/Hospitals.png">
+									
+								</section>
+							</div>
+
+							<div class= "thing-right-content">
+								<section class="thing-description-p" id="description-thing-12">
+									
+									<p> BEGIN HERE jdfkljlkdsjflkasdjflkasdjlkdsafj;lkasdfj  </p>
+									
+								</section>
+							</div>	
+						</div>
+					</div>
+				</div>
+						
+			</article>
+
+
+		<!-- PROPERTY PHOTOS -->
+			<article id="property">
+
+				<h2>Comfortable. Clean. Safe.</h2>
+		<!-- carousel of site photos -->
+					<div class="property-photos">
+					    <ul id="lightSlider">
+					        <li data-thumb="images/lightslider/thumb/Pool_v2.jpg"/>
+					            <img src="images/lightslider/Pool_v2.jpg"/>
+					        </li>
+					        <li data-thumb="images/lightslider/thumb/Exterior.jpg"/>
+					            <img src="images/lightslider/Exterior.jpg"/>
+					        </li>
+					        <li data-thumb="images/lightslider/thumb/Front_Desk.jpg"/>
+					            <img src="images/lightslider/Front_Desk.jpg"/>
+					        </li>
+					        <li data-thumb="images/lightslider/thumb/Lobby.jpg"/>
+					            <img src="images/lightslider/Lobby.jpg"/>
+					        </li>
+					        <li data-thumb="images/lightslider/thumb/King_v1.jpg"/>
+					            <img src="images/lightslider/King_v1.jpg"/>
+					        </li>
+					        <li data-thumb="images/lightslider/thumb/King_v2.jpg"/>
+					            <img src="images/lightslider/King_v2.jpg"/>
+					        </li>
+					        <li data-thumb="images/lightslider/thumb/QQ_v1.jpg"/>
+					           <img src="images/lightslider/QQ_v1.jpg"/>
+					        </li>
+					        <li data-thumb="images/lightslider/thumb/QQ_v2.jpg"/>
+					            <img src="images/lightslider/QQ_v2.jpg"/>
+					        </li>
+					        <li data-thumb="images/lightslider/thumb/Desk_Side.jpg"/>
+					            <img src="images/lightslider/Desk_Side.jpg"/>
+					        </li>
+					        <li data-thumb="images/lightslider/thumb/Standard_Bath.jpg"/>
+					            <img src="images/lightslider/Standard_Bath.jpg"/>
+					        </li>
+					    </ul>
+					</div> 	
+			</article>
+
+			
+		<!-- CUSTOMER INPUT -->
+			<article id="customer">
+				<figure id="Instagram">
+												
+		<!-- LightWidget WIDGET -->
+				<script src="//lightwidget.com/widgets/lightwidget.js"></script>
+					<iframe src="http://lightwidget.com/widgets/e5dd87795d37552da3396a295494dd47.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%;  height: 100%; border: 0; ">	
+					</iframe>							
+				</figure>
+
+				<figure id="quote">
+					<script id="randomQuote" type="text/javascript">
+						var Quotation=new Array() // do not change this!
+							Quotation[0] = '<h2>"You made our trip to Chicago wonderful! We had a great time taking in all the city has to offer and enjoyed the comfort of our room at the end of the day."</h2>';
+							Quotation[1] = '<h2>"A great place to stay!"</h2>';
+							Quotation[2] = '<h2>"Super close to the University of Chicago and their hospital."</h2>';
+							Quotation[3] = '<h2>"We will be back soon."</h2>';
+							Quotation[4] = '<h2>"A great view of the lake, with a beach just across the street."</h2>';
+							var Q = Quotation.length;
+							var whichQuotation=Math.round(Math.random()*(Q-1));
+							function showQuotation(){document.write(Quotation[whichQuotation]
+						);}
+						showQuotation();
+					</script>
+				</figure>	
+			</article>
+		</div>
+				
+
+
+		<div id="right-content">
+<!--TWITTER FEED -->
+			<aside id="around-town">
+				<ul id=twitterFeed>
+					<a class="twitter-timeline" data-partner="tweetdeck" href="https://twitter.com/Amy_Braswell/timelines/804517218692251648">Around Town - Curated tweets by Amy_Braswell</a> 
+					<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+				</ul>
+			</aside>
+		</div>
+	</div>
+</div>
+
+<!-- TWITTER FEED JAVASCRIPT--> 
+	<script>window.twttr = (function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0],
+	    t = window.twttr || {};
+	  if (d.getElementById(id)) return t;
+	  js = d.createElement(s);
+	  js.id = id;
+	  js.src = "https://platform.twitter.com/widgets.js";
+	  fjs.parentNode.insertBefore(js, fjs);
+
+	  t._e = [];
+	  t.ready = function(f) {
+	    t._e.push(f);
+	  };
+
+	  return t;
+	}(document, "script", "twitter-wjs"));</script>
+
+
+<!-- THINGS TO DO JAVASCRIPT--> 
+	<script type="text/javascript">
+	   $(function(){
+
+		     $("#thing-1").click(function() {   $("#thing-1-info").slideToggle( "slow" ); });
+		     $("#thing-2").click(function() {   $("#thing-2-info").slideToggle( "slow" ); });
+		     $("#thing-3").click(function() {   $("#thing-3-info").slideToggle( "slow" ); });
+		     $("#thing-4").click(function() {   $("#thing-4-info").slideToggle( "slow" ); });
+		     $("#thing-5").click(function() {   $("#thing-5-info").slideToggle( "slow" ); });
+		     $("#thing-6").click(function() {   $("#thing-6-info").slideToggle( "slow" ); });
+		     $("#thing-7").click(function() {   $("#thing-7-info").slideToggle( "slow" ); });
+		     $("#thing-8").click(function() {   $("#thing-8-info").slideToggle( "slow" ); });
+		     $("#thing-9").click(function() {   $("#thing-9-info").slideToggle( "slow" ); });
+		     $("#thing-10").click(function() {   $("#thing-10info").slideToggle( "slow" ); });
+		     $("#thing-11").click(function() {   $("#thing-11info").slideToggle( "slow" ); });
+		     $("#thing-12").click(function() {   $("#thing-12info").slideToggle( "slow" ); });
+
+	       $(".thing-details-Close").on("click", function(){
+		       $("#thing-1-info").fadeOut();});
+		     
+	       $(".thing-details-Close").on("click", function(){
+		       $("#thing-2-info").fadeOut();});
+
+		   $(".thing-details-Close").on("click", function(){
+		       $("#thing-3-info").fadeOut();});
+
+		   $(".thing-details-Close").on("click", function(){
+		       $("#thing-4-info").fadeOut();});
+
+		   $(".thing-details-Close").on("click", function(){
+		       $("#thing-5-info").fadeOut();});
+
+		   $(".thing-details-Close").on("click", function(){
+		       $("#thing-6-info").fadeOut();});
+
+		   $(".thing-details-Close").on("click", function(){
+		       $("#thing-7-info").fadeOut();});
+
+		   $(".thing-details-Close").on("click", function(){
+		       $("#thing-8-info").fadeOut();});
+
+		   $(".thing-details-Close").on("click", function(){
+		       $("#thing-9-info").fadeOut();});
+
+		   $(".thing-details-Close").on("click", function(){
+		       $("#thing-10-info").fadeOut();});
+
+		   $(".home-details-Close").on("click", function(){
+		       $("#thing-11-info").fadeOut();});
+
+		   $(".thing-details-Close").on("click", function(){
+		       $("#thing-12-info").fadeOut();});
+		     
+		});	   
+	</script> 
+
+	
+<!-- jQuery for Weather Feed From Wunderground -->
+	<script>
+		jQuery(document).ready(function($) {
+		  $.ajax({
+		  url : "http://api.wunderground.com/api/94bfca5fc00453d1/geolookup/conditions/q/IL/Chicago.json",
+		  dataType : "jsonp",
+		  success : function(parsed_json) {
+			  var location = parsed_json['location']['city'];
+
+			  var Current = (parsed_json['current_observation']['weather']).toLowerCase();
+
+			  var weather = 'The current weather in Chicago is '  + Current + ' with a visibility of ' + parsed_json['current_observation']['visibility_mi'] + ' mi / '+ parsed_json['current_observation']['visibility_km'] + ' km';
+
+			  var temp = 'The current temperature feels like ' + parsed_json['current_observation']['feelslike_f'] + '° F / '+ parsed_json['current_observation']['feelslike_c'] + '° C' ;
+			  
+			  var relative_humidity = ' with a relative humidity of ' + parsed_json['current_observation']['relative_humidity'];
+
+			  //var wind = 'Winds are ' + parsed_json['current_observation']['wind_string'];
+		 	  
+		 	  var icon;
+			  switch (parsed_json['current_observation']['weather']) {
+			  	case 'Overcast': 
+			  		icon = "Overcast.jpg";
+			  		break;
+
+		  		case 'Sunny': 
+			  		icon = "Sunny.jpg";
+			  		break;
+
+		  		case 'Rainy': 
+			  		icon = "Rainy.jpg";
+			  		break;
+
+		  		case 'Snow': 
+			  		icon = "Snowing.jpg";
+			  		break;
+
+		  		case 'Light Snow': 
+			  		icon = "Snowing.jpg";
+			  		break;
+
+		  		case 'Mostly Cloudy': 
+			  		icon = "Overcast.jpg";
+			  		break;
+
+		  		case 'Partly Cloudy': 
+			  		icon = "Partly-Cloudy.jpg";
+			  		break;
+
+		  		case 'Scattered Clouds': 
+			  		icon = "Partly-Cloudy.jpg";
+			  		break;
+
+		  		default: 
+		  			icon = "Sunny.jpg";
+		  			break;
+			  }
+		  	  $('#weather-icon .icon').attr('src', 'images/Weather/' +icon);
+
+			  //create new list items for each weather condition
+			   var newListItem = document.createElement('li');
+			  newListItem.innerHTML = weather;
+			  document.getElementsByTagName('ul')[1].appendChild(newListItem);
+
+			  var newListItem = document.createElement('li');
+			  newListItem.innerHTML = temp + relative_humidity;
+			  document.getElementsByTagName('ul')[1].appendChild(newListItem);
+			 
+			  var newListItem = document.createElement('li');
+			  newListItem.innerHTML = wind;
+			  document.getElementsByTagName('ul')[1].appendChild(newListItem);  
+		  }
+
+		  });
+		});
+
+	</script>
+
+
+<!-- Flexsliders - 1.)Chgo Hero in Header 2.)Instagram Picture Feed -->
+	<script defer src="js/jquery.flexslider.js"></script>
+
+		<script type="text/javascript">
+			$(function(){
+			  SyntaxHighlighter.all();
+			});
+			$(window).load(function(){
+			  
+			  $('#Chicago-slider').flexslider({
+			  	controlNav: false,
+			    animation: "slide",
+			    start: function(slider){
+			      $('body').removeClass('loading');
+			    }
+			   });
+
+			  $('#Instagram-slider').flexslider({
+			  	controlNav: false,
+			    animation: "slide",
+			    animation: "fade",
+				slideshowSpeed: 9000,
+				animationSpeed: 7000,
+			    start: function(slider){
+			      $('body').removeClass('loading');
+			    }
+			   });		  		  
+		    });
+	</script>
+
+<!-- PROPERTY PHOTOS LIGHTSLIDER -->
+	<script type="text/javascript">
+	  $('#lightSlider').lightSlider({
+	    gallery: true,
+	    item: 1,
+	    loop: true,
+	    slideMargin: 0,
+	    thumbItem: 10
+	});  
+	</script>
+
+	<script type="text/javascript">
+	    $(document).ready(function() {
+	        $("#lightSlider").lightSlider({
+	            item: 3,
+	            autoWidth: true,
+	            slideMove: 1, // slidemove will be 1 if loop is true
+	            slideMargin: 10,
+
+	            addClass: '',
+	            mode: "slide",
+	            useCSS: true,
+	            cssEasing: 'ease', //'cubic-bezier(0.25, 0, 0.25, 1)',//
+	            easing: 'linear', //'for jquery animation',////
+
+	            speed: 400, //ms'
+	            auto: false,
+	            pauseOnHover: false,
+	            loop: false,
+	            slideEndAnimation: true,
+	            pause: 2000,
+
+	            keyPress: false,
+	            controls: true,
+	            prevHtml: '',
+	            nextHtml: '',
+
+	            rtl:false,
+	            adaptiveHeight:false,
+
+	            vertical:false,
+	            verticalHeight:500,
+	            vThumbWidth:100,
+
+	            thumbItem:10,
+	            pager: true,
+	            gallery: false,
+	            galleryMargin: 5,
+	            thumbMargin: 5,
+	            currentPagerPosition: 'middle',
+
+	            enableTouch:true,
+	            enableDrag:true,
+	            freeMove:true,
+	            swipeThreshold: 40,
+
+	            responsive : [],
+
+	            onBeforeStart: function (el) {},
+	            onSliderLoad: function (el) {},
+	            onBeforeSlide: function (el) {},
+	            onAfterSlide: function (el) {},
+	            onBeforeNextSlide: function (el) {},
+	            onBeforePrevSlide: function (el) {}
+	        });
+	    });
+	</script>
+
+	<script type="text/javascript">
+	    $(document).ready(function() {
+	        var slider = $("#lightSlider").lightSlider();
+	        slider.goToSlide(3);
+	        slider.goToPrevSlide();
+	        slider.goToNextSlide();
+	        slider.getCurrentSlideCount();
+	        slider.refresh();
+	        slider.play();
+	        slider.pause();
+	        slider.destroy();
+	    });
+	</script>
+	
+<!--Slidebars install -->
+	<script src="js/slidebars.js"></script>
+
+<!--End of jQuery -->
+	  
+</body>
+
+<footer class="regular-footer">
+		<figure id="email">
+			<a href="mailto:info@chicagolakeshorehotel.com">
+			<p>info@chicagolakeshorehotel.com</p></a>
+		</figure>
+
+
+		<figure id="phone">
+			<a href="tel:7732885800">
+			<p>773-288-5800</p></a>
+		</figure>
+
+
+		<figure id="address">
+			<a target="_blank" href="http://maps.google.com/?q=4900 South Lake Shore Drive, Chicago, IL, 60615">
+			<p>4900 S Lake Shore Drive</p>
+			<p></p>
+			<p>Chicago, Illinois, 60615</p></a>
+		</figure>
+	</footer>
+
+
+</html>
