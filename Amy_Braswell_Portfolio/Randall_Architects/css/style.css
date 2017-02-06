@@ -633,15 +633,11 @@ and (max-width: 1024px) {
 	h1 span {
 		font-size: .8em;
 		font-weight: 500;
-		margin-top: 10px;
-		margin-bottom: 10px;
 	}
 	
 	h1 {
 		font-size: .7em;
 		font-weight: 500;
-		margin-top: 10px;
-		margin-bottom: 10px;
 	}
 
 	#company-name {
@@ -748,17 +744,17 @@ and (max-width: 1024px) {
 	}
 	
 	#phone-slideshow {
-		height: 80%;
+		height: 90%;
 		overflow: hidden;
 		background-color: rgba(224, 232, 241, .7);
 	}
 
 	#phone-slideshow img {
-		height: 80%;
+		height: 90%;
 	}
 
 	.mobile-slider .flexslider .slides img {
-	transform: translateY(-50%);
+	zoom: .5;
 }
 	
 	#mobile-about {
