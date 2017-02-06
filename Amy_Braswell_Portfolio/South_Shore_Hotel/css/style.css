@@ -201,6 +201,10 @@ aside {
 	display: none;
 }
 
+.flexslider .slides > li:first-child {
+	float: left; display: block;
+}
+
 /************************************* STAY DATES ****************************************/
 
 #stayDates {
@@ -476,6 +480,10 @@ input[type="submit"] {
 	height: auto;
 	max-width: 100%;
 	object-fit: cover;
+}
+
+.property-photos > li:first-child {
+	float: left; display: block;
 }
 
 /***************************** Customer Instagram & Quotes ********************************/
