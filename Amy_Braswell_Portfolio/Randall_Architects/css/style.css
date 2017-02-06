@@ -631,12 +631,12 @@ and (max-width: 1024px) {
 	}
 	
 	h1 span {
-		font-size: 1.2em;
+		font-size: 1.3em;
 		font-weight: 500;
 	}
 	
 	h1 {
-		font-size: 1.2em;
+		font-size: .7em;
 		font-weight: 500;
 	}
 
@@ -644,7 +644,9 @@ and (max-width: 1024px) {
 		display: block;
 		float: left;
 		width: 85%;
+		height: 50px;
 		padding-left: 5%;
+		margin-top: 20px;
 	}
 	
 	header {
@@ -754,7 +756,7 @@ and (max-width: 1024px) {
 	}
 
 	.mobile-slider .flexslider .slides img {
-	zoom: .5;
+	zoom: .2;
 }
 	
 	#mobile-about {
