@@ -511,7 +511,7 @@ var slidebars = function () {
     // OPEN Left Slidebars
     $( '#js-open-left-slidebar-1' ).on( 'click', function ( event ) {
         event.stopPropagation();
-        controller.open( 'slidebar-1' );
+        controller.open( 'slidebar-1' );  
     } );
 
      $( '#js-open-left-slidebar-2' ).on( 'click', function ( event ) {
