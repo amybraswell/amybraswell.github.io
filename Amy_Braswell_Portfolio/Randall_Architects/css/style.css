@@ -425,10 +425,6 @@ footer #address {
 
 /***************************************HIDDEN STUFF ONLY ON MOBILE****************************/
 
-.mobile-slider {
-	display: none;
-}
-
 #mobile-social {
 	display: none;
 }
@@ -437,19 +433,7 @@ footer #address {
 	display: none;
 }
 
-#hamburger-container {
-	display: none;
-}
-
-#mobile-logo {
-	display: none;
-}
-
-#ham {
-		display: none;
-	}
-
-#fullscreen_background_bullets {
+#two-mobile {
 	display: none;
 }
 
@@ -457,7 +441,7 @@ footer #address {
 /**********************************************************************************************************/
 
 @media only screen 
-and (min-width: 400px) 
+and (min-width: 768px) 
 and (max-width: 1024px) {
 	body {
 		font-size: 14px;
@@ -471,6 +455,7 @@ and (max-width: 1024px) {
 		font-size: 1.35em;
 	}
 	
+
 	/************SOCIAL MEDIA LINKS **************/
 	
 	#two {
@@ -481,10 +466,12 @@ and (max-width: 1024px) {
 		margin-right: 1%;
 		clear: both;
 	}
+
 	#two figure {
 		width: 16%;
 		float: left;
 	}
+
 	#two img {
 		display: inline;
 		width: 100%;
@@ -612,13 +599,11 @@ and (max-width: 1024px) {
 	}
 	
 	.portfolio-slider .flex-direction-nav .flex-next {
-		position: absolute;
-		top: 185px;
+		display: none;
 	}
 	
 	.portfolio-slider .flex-direction-nav .flex-prev {
-		position: absolute;
-		top: 185px;
+		display: none;
 	}
 	
 	.home-description-p {
@@ -627,217 +612,140 @@ and (max-width: 1024px) {
 	}
 	
 }
+/*****************************************************VERT CELL PHONE ************************************/
+/*********************************************************************************************************/
 
+@media only screen 
+and (min-width : 301px) 
+and (max-width : 767px)   {
 
-/***************************************************** CELL PHONE SITE *****************************************/
-/***************************************************************************************************************/
-
-@media only screen and (max-width: 400px) {
-
-	body {
-		font-size: 14pt;
-		background-color: #FFF;
-	}
-
-	
 	h1 span {
-		font-size: 1.2em;
+		font-size: 1.4em;
 		font-weight: 500;
 	}
 	
 	h1 {
-		font-size: .8em;
+		font-size: 1em;
 		font-weight: 500;
-	}
+	} 
 
 	header {
-		height: 40px;
+		height: 80px;
 		width: 100%;
 	}
 
-	#company-name {
-		display: inline;
+	.blue {
+		display: none;
+	}
+
+	.grey {
+		display: none;
+	}
+
+	#logo img {
+		display: none;
+	}
+
+/*****************HERO SLIDER *****************/
+	#slideshow {
+		max-height: 225px;
+		width: 100%;
+		overflow: hidden;
+		margin-top: -7%;
+	}
+
+	#slideshow img {
+		max-height: 225px;
+	}
+
+	.flexslider .slides > li:first-child {
+		float: left; display: block;
+	}
+
+	.hero-slider .flex-direction-nav .flex-next {
+		display: none;
+	}
+
+	.hero-slider .flex-direction-nav .flex-prev {
+		display: none;
+	}
+
+/*****************CONTACT LINKS *****************/
+
+	.form {
+		display: none;
+	}
+
+	#two {
+		display: none;
+	}
+
+	#two-mobile {
+		display: block;
+		width: 100%;
+	}
+
+	#two-mobile figure {
+		width: 33.3%;
 		float: left;
-		width: 90%;
-		height: 40px;
-		padding-left: 5%;
-		margin-top: 2px;	
-		max-width: 90%;
-		position: fixed;
 	}
 
-	#blue-background {
-		background-color: #143a71;
-		height: 40px;
+	#two-mobile img {
+		display: inline;
+		width: 30%;
+		margin: 0 35% 5% 35%;
+	}
+
+/*****************INFO SECTION *******************/
+
+	#portraits {
+		display: none;
+	}
+
+	#about {
 		width: 100%;
-		display: block;
-		position: fixed;
-	}
-	
-	#hamburger-container {
-		display: block;
-		float: right;
-		padding-right: 3%;
-		position: fixed;
-		margin-top: 1.25%;
-		margin-left: 90%;
-		z-index: 500;
+		padding: 5%;
 	}
 
-	#hamburger-container img{
-		width: 20px;
-		height: 15px;
-		margin-top: 5px;		
-	}
-
-	#ham {
-		display: block;
-	}
-	
-	.mobile-menu {
-		overflow: auto;
-		width: 15%;
-		float: right;
-		height: 45px;
-		cursor: pointer;
-		padding-left: 5%;
-		margin-right: -6.5%;
-		position: fixed;
-		top: 40px;
-		background-color: #143a71;
-		z-index: 600;
-	}
-
-	button {
-		border: none;
-		padding: 2%;
-		background-color: #143a71;
-	}
-
-	button h1 {
-		background-color: #143a71;
-		color: rgba(224, 232, 241, 1);
-		font-family: 'Trirong', serif;
-		font-weight: 500;
-		text-align: center;
-		text-transform: uppercase;
-		font-size: 1.35em;
-		letter-spacing: .2em;
-		padding-left: 1.3%;
-	}
-
-	#drop-down a {
-		display: block;
-		width: 100%;
-		text-decoration: none;
-		border-bottom: solid 1px rgba(224, 232, 241, .8);
-		padding: 2%;
-	}
-
-	#drop-down h1 {
-		background-color: #143a71;
-	}
-
-	#drop-down div {
-		text-align: center;
-		background-color: #143a71;
-	}
-		
-	#mobile-about {
-		width: 100%;
-		height: 100%;
-		margin-top: 7%;
-		overflow-y: scroll;
-	}
-
-	#mobile-logo {
-		display: block;
-		width: 15%;
-		margin: 0 auto 0;
-	}
-
-	#mobile-logo img{
-		width: 100%;
-	}
-	
-	#mobile-about p {
-		font-size: 1em;
+	#about p {
+		font-size: 1.1em;
 		line-height: 1.6em;
-		padding: 2% 5% 5%;
+		letter-spacing: .1;
+		text-align: justify;
 		clear: both;
 	}
+
+	#right {
+		display: none;
+	}
+
 	
-	#mobile-contact {
-		display: block;
-		width: 100%;
-		margin-top: 4%;
-		height: 100%;
-		overflow-y: hidden;
+/*********************PORTFOLIO *****************/
+	
+	#portfolio figure figcaption div {
+		font-size: 1em;
 	}
 
-	.mobile-contact-left {
-		float: left;
-		width: 15%;
-		padding-left: 2%;
-	}
-
-	.mobile-contact-left img {
-		width: 30px;
-		margin: 0 auto 0;	
-	}
-
-	.mobile-contact-right {
-		float: right;
-		width: 80%;
-		margin-left: 5%;
-	}
-
-	#mobile-contact p {
-		font-size: 1.2em;
-		color: #555;
-		text-align: left;
-	}
-
-	#email-center {
-		width: 90%;
-		margin: 15% auto 0;
-	}
-
-	#phone-center {
-		width: 90%;
-		margin: 8% auto 0;
-	}
-
-	#address-center {
-		width: 90%;
-		margin: 8% auto 0;
-	}
-
-	#email-icon {
-		margin-top: 10px;
-	}
-
-	#address-icon {
-		margin-top: 8px;
+	#wrapper {
+		width: 75%;
+		margin: 5% auto 0;
 	}
 	
-	#mobile-about{
-		padding-bottom: 10%;
-	}		
-	#portfolio {
-		margin: 0 auto 0;
-		padding-top: 15%;
-		width: 100%;
-		position: absolute;
-		z-index: 0;
-		overflow-y: scroll;
-		background-color: #FFF;
-	}
-
 	#portfolio figure {
 		width: 100%;
-		padding: 10% 15%;
+		float: left;
+		position: relative;
+		padding: 15px;
 	}
+
+	#home-2-fig, #home-4-fig, #home-5-fig, #home-6-fig, #home-8-fig, #home-9-fig {
+		display: none;
+	}
+
+	#home-7-fig {
+		margin-bottom: 20px;
+	}
+/***************** PORTFOLIO SLIDER *************/
 
 	.portfolio-slider {
 		max-height: 50%;
@@ -873,62 +781,36 @@ and (max-width: 1024px) {
 		padding: 2% 5% 10%;
 	}
 
-	.close-button {
-	float: right;
-	margin-right: 3%;
-	margin-top: 3%;
-	opacity: .5;
+	.home-description-p p{
+		font-size: 1.3em;
+		line-height: 1.9em;
+		letter-spacing: .2;
 	}
 
-	.mobile-mailing-list {
-		width: 100%;
-		height: 100%;
-		padding: 5%;
-		background-color: rgba(224, 232, 241, .7);
-		position: absolute;
-		overflow-y: hidden;
-	}
-	
-	.mobile-mailing-list input {
-		margin: .5vw auto 1vw;
-		padding: 0 10px 0 10px;
-		margin-bottom: 10px;
-		width: 85%;
-		line-height: 3em;
-		border: none;
-	}
-	
-	.mobile-mailing-list input[type="submit"] {
-		width: 45%;
-		height: 35px;
+	.close-button {
 		float: right;
-		background-color: #777;
-		font-size: .8em;
-		font-weight: 300;
-		letter-spacing: .11em;
+		margin-right: 3%;
+		margin-top: 3%;
+		opacity: .5;
 	}
-	
-	.mobile-mailing-list input[name="comments"] {
-		width: 100%;
-		height: 30vw;
-		margin-bottom: -3%;
-	}
+
+/******************* FOOTER ************************/
 
 	.regular-footer {
 		display: none;
-	}
-	
-	.mobile-footer {
+	}	
+
+	.mobile-social {
 		display: block;
 		position: absolute;
 		bottom: 0;
 		background-color: #143a71;
 		width: 100%;
 	}
-	
+
 	#mobile-social {
 		width: 100%;
-		display: none;
+		display: block;
 		margin: 0 auto 0;
 		padding-left: 12%;
 		padding-right: 12%;
@@ -947,42 +829,83 @@ and (max-width: 1024px) {
 		border-radius: 20%;
 		padding: 3%;
 	}
-	
-	.grey, .blue, #two, #portraits, #about, #right, #wrapper, .hero-slider, #logo img {
+}
+
+/**********************************************HORIZONTAL CELL PHONE*****************************************/
+@media only screen 
+and (min-width : 425px) 
+and (max-width : 767px)   {
+
+	/*****************CONTACT LINKS *****************/
+
+	.form {
 		display: none;
 	}
 
-	.mobile-slider {
+	#two {
+		display: none;
+	}
+
+	#two-mobile {
 		display: block;
-		overflow-y: hidden;
-		height: 90%;
 		width: 100%;
-	    position: fixed;
-		margin: 0 auto 0;
-		top: 40px;
-		overflow-y: hidden;
-		z-index: 0;
 	}
 
-	.mobile-slider .flexslider .slides img {
-		margin-top: 12%; 
-		height: auto;
-		max-width: 100%;
-		margin: 5 0 0;
-		transform: translateY(-11%);
+	#two-mobile figure {
+		width: 33.3%;
+		float: left;
 	}
 
-	.mobile-slider .flex-direction-nav .flex-next {
+	#two-mobile img {
+		display: inline;
+		width: 20%;
+		margin: 0 40% 5% 40%;
+	}
+
+	#about {
+		padding: 2% 5%;
+	}
+
+	#wrapper {
+		width: 95%;
+	}
+
+	#portfolio figure {
+		width: 33.3%;
+		float: left;
+		position: relative;
+		padding: 10px;
+		margin-bottom: 30px;
+	}
+
+	#portfolio img {
+		display: block;
+		width: 100%;
+	}
+
+
+	/*****************PORTFOLIO SLIDER ***************/
+
+	.portfolio-slider {
+		display: block;
+		margin-top: -30%;
+	}
+
+	.portfolio-slider .flex-direction-nav .flex-next {
 		display: none;
 	}
 
-	.mobile-slider .flex-direction-nav .flex-prev {
+	.portfolio-slider .flex-direction-nav .flex-prev {
 		display: none;
 	}
 
-}	
+	.home-description-p p{
+		display: none;
+	}
 
-
-
+	.close-button {
+		display: none;
+	}
+}
 
 
